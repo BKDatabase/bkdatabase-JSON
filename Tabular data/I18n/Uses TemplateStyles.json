@@ -1,0 +1,76 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Translation table for the shared Module:Uses_TemplateStyles"
+    },
+    "sources": "Module [[mw:Module:Uses TemplateStyles]], see [[mw:WP:TNT|bot documentation]].",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "Uses TemplateStyles"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "id",
+                "type": "string"
+            },
+            {
+                "name": "message",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "header-template",
+            {
+                "en": "This template uses [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "id": "Templat ini menggunakan [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "ilo": "Agus-usar daytoy a plantilia iti [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "ka": "ეს თარგი იყენებს [[mw:Help:TemplateStyles|TemplateStyles]]-ს:",
+                "nb": "Denne malen benytter seg av [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "no": "Denne malen benytter seg av [[mw:Help:TemplateStyles|TemplateStyles]]:"
+            }
+        ],
+        [
+            "header-module",
+            {
+                "en": "This module uses [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "id": "Modul ini menggunakan [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "ilo": "Agus-usar daytoy a modulo iti [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "ka": "ეს მოდული იყენებს [[mw:Help:TemplateStyles|TemplateStyles]]-ს:",
+                "nb": "Denne modulen benytter seg av [[mw:Help:TemplateStyles|TemplateStyles]]:",
+                "no": "Denne modulen benytter seg av [[mw:Help:TemplateStyles|TemplateStyles]]:"
+            }
+        ],
+        [
+            "logo-alt",
+            {
+                "en": "CSS",
+                "ka": "CSS"
+            }
+        ],
+        [
+            "error-emptylist",
+            {
+                "en": "Error: no TemplateStyles specified",
+                "id": "Galat: tak ada TemplateStyles yang ditentukan",
+                "ilo": "Biddut: awan ti nainaganan a TemplateStyles",
+                "ka": "შეცდომა: არ არის მითითებული TemplateStyles"
+            }
+        ],
+        [
+            "sandboxlink",
+            {
+                "en": "$1 ([[$2|sandbox]])",
+                "id": "$1 ([[$2|bak pasir]])",
+                "ilo": "$1 ([[$2|pagipadasan]])",
+                "ka": "$1 ([[$2|სავარჯიშო]])",
+                "nb": "$1 ([[$2|sandkasse]])",
+                "no": "$1 ([[$2|sandkasse]])"
+            }
+        ]
+    ]
+}
