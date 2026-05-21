@@ -1,0 +1,106 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "The template allows displaying a background image on the specified page using the file source link from any website or files available on BKDatabase.",
+        "vi": "Bản mẫu cho phép hiển thị hình nền trên trang được chỉ định bằng liên kết nguồn của tập tin ở bất kỳ trang web nào hoặc các tập tin có sẵn trên BKDatabase."
+    },
+    "sources": "Documentation for [[Template:Background]], original work by [[User:Bapham123]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "background"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "suggested",
+                "type": "boolean"
+            },
+            {
+                "name": "example",
+                "type": "localized"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            },
+            {
+                "name": "autovalue",
+                "type": "string"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            }
+        ]
+    },
+    "data": [
+        [
+            "url",
+            "url",
+            true,
+            {
+                "en": "https://static.wikitide.net/bluearchivewiki/archive/1/14/20240622220036%21Fankit_010.png",
+                "vi": "https://static.wikitide.net/bluearchivewiki/archive/1/14/20240622220036%21Fankit_010.png"
+            },
+            {
+                "en": "URL",
+                "vi": "URL"
+            },
+            {
+                "en": "Link the source to the image you want to use as the page background",
+                "vi": "Liên kết nguồn đến hình ảnh cần làm hình nền cho trang"
+            },
+            null,
+            null
+        ],
+        [
+            "file",
+            "wiki-file-name",
+            true,
+            {
+                "en": "Example.png",
+                "vi": "Example.png"
+            },
+            {
+                "en": "File",
+                "vi": "File"
+            },
+            {
+                "en": "The image file is used as the background for the page if available in BKDatabase",
+                "vi": "Tập tin của hình ảnh được làm hình nền cho trang nếu có sẵn tại BKDatabase"
+            },
+            null,
+            null
+        ],
+        [
+            "portrait",
+            null,
+            false,
+            null,
+            {
+                "en": "Portrait",
+                "vi": "Portrait"
+            },
+            {
+                "en": "This option helps the image display as the page background appropriately when the screen height is greater than its width.",
+                "vi": "Tùy chọn giúp hình ảnh được hiển thị làm hình nền của trang phù hợp khi chiều cao màn hình lớn hơn chiều rộng."
+            },
+            "true",
+            "false"
+        ]
+    ]
+}
