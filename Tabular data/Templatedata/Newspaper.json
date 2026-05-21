@@ -1,0 +1,180 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "The template allows displaying a \"newspaper\" in pop-up form before the page",
+        "vi": "Bản mẫu cho phép hiển thị một \"tờ báo\" dạng pop-up trước trang"
+    },
+    "sources": "Documentation for [[Template:Newspaper]], original work by [[User:Bapham123]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Newspaper"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "suggested",
+                "type": "boolean"
+            },
+            {
+                "name": "example",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            }
+        ]
+    },
+    "data": [
+        [
+            "id",
+            "line",
+            true,
+            false,
+            "kaiserthunderstorm",
+            {
+                "en": "ID",
+                "vi": "ID"
+            },
+            {
+                "en": "ID of \"the newspaper\"",
+                "vi": "ID của \"tờ báo\""
+            },
+            null
+        ],
+        [
+            "Newspaper",
+            "line",
+            false,
+            false,
+            "News of the World",
+            {
+                "en": "Newspaper name",
+                "vi": "Tên tờ báo"
+            },
+            {
+                "en": "The official name of that newspaper, you may add the newspaper's logo if desired",
+                "vi": "Tên chính thức của tờ báo đó, có thể thêm biểu trưng của tờ báo nếu muốn"
+            },
+            null
+        ],
+        [
+            "date",
+            "line",
+            false,
+            true,
+            "Ngày 2 tháng 1 năm 1919",
+            {
+                "en": "Date",
+                "vi": "Ngày tháng"
+            },
+            {
+                "en": "The date that \"the newspaper\" was published",
+                "vi": "Ngày tháng mà \"tờ báo\" đó được đăng đàn"
+            },
+            null
+        ],
+        [
+            "top_image",
+            "wiki-file-name",
+            true,
+            false,
+            "Example.png",
+            {
+                "en": "Title image",
+                "vi": "Hình ảnh đầu báo"
+            },
+            {
+                "en": "Image name used as the top picture of the \"newspaper\"",
+                "vi": "Tên hình ảnh làm ảnh trên cùng của \"tờ báo\""
+            },
+            null
+        ],
+        [
+            "size",
+            "line",
+            false,
+            false,
+            "300px",
+            {
+                "en": "Title image size",
+                "vi": "Kích thước ảnh đầu báo"
+            },
+            {
+                "en": "The size of the top image of the \"newspaper\"",
+                "vi": "Kích thước của ảnh trên cùng của \"tờ báo\""
+            },
+            null
+        ],
+        [
+            "title",
+            "line",
+            true,
+            false,
+            "Lorem ipsum",
+            {
+                "en": "Article title",
+                "vi": "Tên bài báo"
+            },
+            {
+                "en": "Name of the \"article\"",
+                "vi": "Tên của \"bài báo\""
+            },
+            null
+        ],
+        [
+            "text",
+            "content",
+            true,
+            false,
+            null,
+            {
+                "en": "Content",
+                "vi": "Nội dung"
+            },
+            {
+                "en": "Content of the \"article\"",
+                "vi": "Nội dung của \"bài báo\""
+            },
+            null
+        ],
+        [
+            "button",
+            "line",
+            false,
+            false,
+            null,
+            {
+                "en": "Custom content",
+                "vi": "Nội dung tùy chỉnh"
+            },
+            {
+                "en": "Custom content for the confirmation button at the bottom of the \"newspaper\"",
+                "vi": "Nội dung tùy chỉnh cho nút xác nhận dưới cùng của \"tờ báo\""
+            },
+            "continue"
+        ]
+    ]
+}
