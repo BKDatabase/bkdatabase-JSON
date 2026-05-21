@@ -1,0 +1,115 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Creates <var> tags with default padding for better kerning when italicized."
+    },
+    "sources": "Documentation for [[Template:Var]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "var"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "autovalue",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "id",
+            "string",
+            null,
+            false,
+            {
+                "en": "ID"
+            },
+            {
+                "en": "Adds the “id” attribute to the <var> tag."
+            }
+        ],
+        [
+            "class",
+            "string",
+            null,
+            false,
+            {
+                "en": "Class Name"
+            },
+            {
+                "en": "Adds the “class” attribute to the <var> tag."
+            }
+        ],
+        [
+            "style",
+            "string",
+            null,
+            false,
+            {
+                "en": "CSS Style"
+            },
+            {
+                "en": "Additional CSS properties"
+            }
+        ],
+        [
+            "title",
+            "string",
+            null,
+            false,
+            {
+                "en": "Tooltip"
+            },
+            {
+                "en": "Adds the “title” attribute to the <var> tag."
+            }
+        ],
+        [
+            "lang",
+            "string",
+            "en",
+            false,
+            {
+                "en": "Language"
+            },
+            {
+                "en": "Adds the ISO 639 language code to the <var> tag."
+            }
+        ],
+        [
+            "1",
+            "line",
+            null,
+            true,
+            {
+                "en": "Content"
+            },
+            {
+                "en": "The contents of the <var>...</var> tags."
+            }
+        ]
+    ]
+}
