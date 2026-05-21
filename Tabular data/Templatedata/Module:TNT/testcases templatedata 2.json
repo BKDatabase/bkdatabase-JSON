@@ -1,0 +1,77 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "DO NOT EDIT OR TRANSLATE unless you are changing unit tests"
+    },
+    "sources": "This is a set of validation strings used by [[Module:TNT/testcases|TNT unit tests]]. Created by [[c:user:Yurik]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "testcases templatedata 2"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "suggested",
+                "type": "boolean"
+            },
+            {
+                "name": "example",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "param1",
+            {
+                "en": "en_label_1"
+            },
+            "string",
+            true,
+            false,
+            {
+                "en": "en_example_1"
+            },
+            {
+                "en": "en_desc_1"
+            }
+        ],
+        [
+            "param2",
+            {
+                "fr": "fr_label_2"
+            },
+            "string",
+            false,
+            true,
+            {
+                "pl": "pl_example_2"
+            },
+            {
+                "en": "en_desc_2"
+            }
+        ]
+    ]
+}
