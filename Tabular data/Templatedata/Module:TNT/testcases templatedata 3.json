@@ -1,0 +1,70 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "DO NOT EDIT OR TRANSLATE unless you are changing unit tests"
+    },
+    "sources": "This is a set of validation strings used by [[Module:TNT/testcases|TNT unit tests]] to test <syntaxhighlight inline lang=\"json\">null</syntaxhighlight> values in columns ([[mw:Special:Diff/4692779]]). Created by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "testcases templatedata 3"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "param1",
+            "string",
+            "default1",
+            {
+                "en": "en_label_1"
+            },
+            {
+                "en": "en_desc_1"
+            }
+        ],
+        [
+            "param2",
+            "string",
+            null,
+            {
+                "en": "en_label_2"
+            },
+            {
+                "en": "en_desc_2"
+            }
+        ],
+        [
+            "param3",
+            "string",
+            "default3",
+            {
+                "en": "en_label_2"
+            },
+            null
+        ]
+    ]
+}
