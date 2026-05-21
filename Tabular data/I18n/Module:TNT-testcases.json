@@ -1,0 +1,62 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Testcases for the Module:TNT.  DO NOT MODIFY OR TRANSLATE THIS FILE UNLESS NEEDED FOR THE TESTCASES.",
+        "sl": "Testni primeri za Modul:TNT.  NE SPREMINJAJTE IN NE PREVAJAJTE TE DATOTEKE, RAZEN ČE JE TO POTREBNO ZA TESTNE PRIMERE."
+    },
+    "sources": "DO NOT TRANSLATE. This is a set of validation strings used by [[Module:TNT/testcases|TNT unit tests]], created by [[c:user:Yurik]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "testcases"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "id",
+                "type": "string"
+            },
+            {
+                "name": "message",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "text",
+            {
+                "en": "text message",
+                "ru": "текст"
+            }
+        ],
+        [
+            "text_1",
+            {
+                "en": "text message $1",
+                "ru": "текст $1"
+            }
+        ],
+        [
+            "text_2",
+            {
+                "en": "text message $1 and $2",
+                "ru": "текст $1 и $2"
+            }
+        ],
+        [
+            "text_link",
+            {
+                "en": "text message [[$1|$2]]",
+                "ru": "текст [[$1|$2]]"
+            }
+        ],
+        [
+            "text_no_en",
+            {
+                "ru": "текст"
+            }
+        ]
+    ]
+}
