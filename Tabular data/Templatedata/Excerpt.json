@@ -1,0 +1,406 @@
+{
+    "license": "CC-BY-SA-4.0+",
+    "description": {
+        "en": "Transclude any part of any page",
+        "es": "Transcluir cualquier parte de cualquier página",
+        "fr": "Transclure toute partie de page."
+    },
+    "sources": "Documentation for [[Template:Excerpt]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Excerpt"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "suggested",
+                "type": "boolean"
+            },
+            {
+                "name": "example",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            {
+                "en": "Page",
+                "es": "Página",
+                "fr": "Page"
+            },
+            "wiki-page-name",
+            true,
+            false,
+            {
+                "en": "Science",
+                "es": "Ciencia",
+                "fr": "Science"
+            },
+            {
+                "en": "Page to transclude",
+                "es": "Página a transcluir",
+                "fr": "Page à transclure"
+            }
+        ],
+        [
+            "2",
+            {
+                "en": "Section",
+                "es": "Sección",
+                "fr": "Section"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "History",
+                "es": "Historia",
+                "fr": "Histoire"
+            },
+            {
+                "en": "Section to transclude",
+                "es": "Sección a transcluir",
+                "fr": "Section à transclure"
+            }
+        ],
+        [
+            "hat",
+            {
+                "en": "Hatnote",
+                "es": "Aviso",
+                "fr": "Résumé"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "0",
+                "es": "0",
+                "fr": "0"
+            },
+            {
+                "en": "Hide the hatnote",
+                "es": "Oculta el aviso inicial",
+                "fr": "Masquer le résumé"
+            }
+        ],
+        [
+            "this",
+            {
+                "en": "This",
+                "es": "Esto",
+                "fr": "Ceci"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "This gallery is",
+                "es": "Esta galería es",
+                "fr": "Cette galerie est"
+            },
+            {
+                "en": "Initial text of the hatnote",
+                "es": "Texto inicial del aviso",
+                "fr": "Texte initial de la note générale"
+            }
+        ],
+        [
+            "more",
+            {
+                "en": "Read more",
+                "es": "Leer más",
+                "fr": "Lire la suite"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "1",
+                "es": "1",
+                "fr": "1"
+            },
+            {
+                "en": "Append a 'Read more' link",
+                "es": "Agrega un enlace «Leer más» al final",
+                "fr": "Afficher un lien « Lire la suite... » à la fin"
+            }
+        ],
+        [
+            "bold",
+            {
+                "en": "Bold",
+                "es": "Negritas",
+                "fr": "Gras"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "1",
+                "es": "1",
+                "fr": "1"
+            },
+            {
+                "en": "Keep bold text",
+                "es": "Conservar el texto en negritas",
+                "fr": "Garder le texte en gras"
+            }
+        ],
+        [
+            "quote",
+            {
+                "en": "Quote",
+                "es": "Citar",
+                "fr": "Citer"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "1",
+                "es": "1",
+                "fr": "1"
+            },
+            {
+                "en": "Wrap the excerpt with <blockquote> tags",
+                "es": "Envolver el extracto con etiquetas <blockquote>",
+                "fr": "Encadrer l'extrait avec les balises <blockquote>"
+            }
+        ],
+        [
+            "inline",
+            {
+                "en": "Inline",
+                "es": "En línea",
+                "fr": "En ligne"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "1",
+                "es": "1",
+                "fr": "1"
+            },
+            {
+                "en": "Wrap the excerpt with <span> tags to use it inside other text",
+                "es": "Envolver el extracto con etiquetas <span> para utilizarlo dentro de otro texto",
+                "fr": "Encadrer l'extrait avec les balises <span> pour l'utiliser dans un autre texte"
+            }
+        ],
+        [
+            "references",
+            {
+                "en": "References",
+                "es": "Referencias",
+                "fr": "Références"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "0",
+                "es": "0",
+                "fr": "0"
+            },
+            {
+                "en": "Remove all references",
+                "es": "Quitar todas las referencias",
+                "fr": "Supprimer toutes les références"
+            }
+        ],
+        [
+            "subsections",
+            {
+                "en": "Subsections",
+                "es": "Subsecciones",
+                "fr": "Sous-sections"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "1",
+                "es": "1",
+                "fr": "1"
+            },
+            {
+                "en": "Include subsections of the transcluded section",
+                "es": "Incluir las subsecciones de la sección transcluída",
+                "fr": "Inclure des sous-sections de la section transcluse"
+            }
+        ],
+        [
+            "fragment",
+            {
+                "en": "Fragment",
+                "es": "Fragmento",
+                "fr": "Fragment"
+            },
+            "boolean",
+            false,
+            false,
+            {
+                "en": "Name of the fragment",
+                "es": "Nombre del fragmento",
+                "fr": "Nom du fragment"
+            },
+            {
+                "en": "Name of the fragment to transclude",
+                "es": "Nombre del fragmento a transcluir",
+                "fr": "Nom du fragment à transclure"
+            }
+        ],
+        [
+            "only",
+            {
+                "en": "Only",
+                "es": "Solo",
+                "fr": "Seul"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "tables",
+                "es": "tables",
+                "fr": "tables"
+            },
+            {
+                "en": "Elements to transclude",
+                "es": "Elementos a transcluir",
+                "fr": "Éléments à transclure"
+            }
+        ],
+        [
+            "paragraphs",
+            {
+                "en": "Paragraphs",
+                "es": "Párrafos",
+                "fr": "Paragraphes"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "1-3,5",
+                "es": "1-3,5",
+                "fr": "1-3,5"
+            },
+            {
+                "en": "Paragraphs to transclude",
+                "es": "Párrafos a transcluir",
+                "fr": "Paragraphes à transclure"
+            }
+        ],
+        [
+            "files",
+            {
+                "en": "Files",
+                "es": "Archivos",
+                "fr": "Fichiers"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "A.jpg, B.png",
+                "es": "A.jpg, B.png",
+                "fr": "A.jpg, B.png"
+            },
+            {
+                "en": "Files to transclude",
+                "es": "Archivos a transcluir",
+                "fr": "Fichiers à transclure"
+            }
+        ],
+        [
+            "tables",
+            {
+                "en": "Tables",
+                "es": "Tablas",
+                "fr": "Tables"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "Stats2020",
+                "es": "Stats2020",
+                "fr": "Stats2020"
+            },
+            {
+                "en": "Tables to transclude",
+                "es": "Tablas a transcluir",
+                "fr": "Tables à transclure"
+            }
+        ],
+        [
+            "lists",
+            {
+                "en": "Lists",
+                "es": "Listas",
+                "fr": "Listes"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "1-3,5",
+                "es": "1-3,5",
+                "fr": "1-3,5"
+            },
+            {
+                "en": "Lists to transclude",
+                "es": "Listas a transcluir",
+                "fr": "Listes à transclure"
+            }
+        ],
+        [
+            "templates",
+            {
+                "en": "Templates",
+                "es": "Plantillas",
+                "fr": "Modèles"
+            },
+            "string",
+            false,
+            false,
+            {
+                "en": "Infobox",
+                "es": "Ficha",
+                "fr": "Infobox"
+            },
+            {
+                "en": "Templates to transclude",
+                "es": "Plantillas a transcluir",
+                "fr": "Modèles à transclure"
+            }
+        ]
+    ]
+}
