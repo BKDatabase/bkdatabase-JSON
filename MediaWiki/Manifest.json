@@ -1,0 +1,71 @@
+{
+	"dir": "ltr",
+	"name": "BKDatabase",
+	"short_name": "BKD",
+	"description": "Vào năm 1919, thập tự sắt đã bắt đầu nhuốm máu...",
+	"scope": "https://blutigeskareuz.miraheze.org/",
+	"icons": [
+		{
+			"src": "https://static.wikitide.net/blutigeskareuzwiki/c/ca/8ff2ea6f-ee50-4f8a-b0c1-de497ea7e95b.png",
+			"sizes": "any",
+			"type": "image/png"
+		}
+	],
+	"display": "standalone",
+	"orientation": "portrait",
+	"start_url": "/?pwa-id=main",
+	"screenshots": [
+		{
+			"src": "https://static.wikitide.net/blutigeskareuzwiki/b/b9/BlutigesKreuz.png",
+			"sizes": "2000x1600",
+			"type": "image/png",
+			"form_factor": "wide",
+			"label": "Application"
+		},
+		{
+			"src": "https://static.wikitide.net/blutigeskareuzwiki/b/b9/BlutigesKreuz.png",
+			"sizes": "2000x1600",
+			"type": "image/png",
+			"form_factor": "narrow",
+			"label": "Application"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Tìm kiếm",
+			"url": "/Special:Search?pwa-id=main",
+			"description": "Cần thông tin cụ thể?",
+			"icons": [
+				{
+					"src": "https://static.wikitide.net/blutigeskareuzwiki/2/20/Info_Button.webp",
+					"sizes": "100x100",
+					"type": "image/webp"
+				}
+			]
+		},
+		{
+			"name": "Ngẫu nhiên",
+			"url": "/Special:Random?pwa-id=main",
+			"description": "Thích gì đó ngẫu nhiên?",
+			"icons": [
+				{
+					"src": "https://static.wikitide.net/blutigeskareuzwiki/4/4a/Countries_Icon.webp",
+					"sizes": "100x100",
+					"type": "image/webp"
+				}
+			]
+		},
+		{
+			"name": "Thay đổi gần đây",
+			"url": "/Special:RecentChanges?pwa-id=main",
+			"description": "Thay đổi gần đây",
+			"icons": [
+				{
+					"src": "https://static.wikitide.net/blutigeskareuzwiki/3/34/Ledger_open_button.webp",
+					"sizes": "100x100",
+					"type": "image/webp"
+				}
+			]
+		}
+	]
+}
