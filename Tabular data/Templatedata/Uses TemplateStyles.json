@@ -1,0 +1,216 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Used to show that templates have been converted to use TemplateStyles."
+    },
+    "sources": "[[BKDatabase:Dữ liệu bản mẫu|TemplateData]] for [[Bản mẫu:Uses TemplateStyles|Uses TemplateStyles]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Uses TemplateStyles"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            },
+            {
+                "name": "autovalue",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            "wiki-page-name",
+            true,
+            null,
+            null,
+            {
+                "en": "Stylesheet 1"
+            },
+            {
+                "en": "Name of the main stylesheet used in the template or module. Use multiple parameters to specify multiple stylesheets."
+            }
+        ],
+        [
+            "2",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 2"
+            },
+            {
+                "en": "Name of the second stylesheet."
+            }
+        ],
+        [
+            "3",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 3"
+            },
+            {
+                "en": "Name of the third stylesheet."
+            }
+        ],
+        [
+            "4",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 4"
+            },
+            {
+                "en": "Name of the fourth stylesheet."
+            }
+        ],
+        [
+            "5",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 5"
+            },
+            {
+                "en": "Name of the fifth stylesheet."
+            }
+        ],
+        [
+            "6",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 6"
+            },
+            {
+                "en": "Name of the sixth stylesheet."
+            }
+        ],
+        [
+            "7",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 7"
+            },
+            {
+                "en": "Name of the seventh stylesheet."
+            }
+        ],
+        [
+            "8",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 8"
+            },
+            {
+                "en": "Name of the eighth stylesheet."
+            }
+        ],
+        [
+            "9",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 9"
+            },
+            {
+                "en": "Name of the ninth stylesheet."
+            }
+        ],
+        [
+            "10",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Stylesheet 10"
+            },
+            {
+                "en": "Name of the tenth stylesheet."
+            }
+        ],
+        [
+            "nocat",
+            "boolean",
+            false,
+            "0",
+            "1",
+            {
+                "en": "No Category?"
+            },
+            {
+                "en": "Whether to disable categorization."
+            }
+        ],
+        [
+            "noprotcat",
+            "boolean",
+            false,
+            "0",
+            "1",
+            {
+                "en": "No Protection Category?"
+            },
+            {
+                "en": "Whether to disable checking that the stylesheet page(s) have same protection level as the template."
+            }
+        ],
+        [
+            "category",
+            "string",
+            false,
+            "Templates using TemplateStyles",
+            null,
+            {
+                "en": "Custom Category"
+            },
+            {
+                "en": "Main category to put on pages using this template, without namespace prefix."
+            }
+        ]
+    ]
+}
