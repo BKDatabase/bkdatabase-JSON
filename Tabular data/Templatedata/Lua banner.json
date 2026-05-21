@@ -1,0 +1,267 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Banner for templates that rely on Lua modules.",
+        "it": "Banner per template basati sull'uso di moduli Lua.",
+        "pt-br": "Cartão para predefinições que dependem de módulos Lua."
+    },
+    "sources": "[[BKDatabase:Dữ liệu bản mẫu|TemplateData]] for [[Bản mẫu:Lua|Lua banner]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Lua banner"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            },
+            {
+                "name": "autovalue",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            "wiki-page-name",
+            true,
+            null,
+            null,
+            {
+                "en": "Module 1",
+                "it": "Modulo 1",
+                "pt-br": "Módulo 1"
+            },
+            {
+                "en": "Name of the main module used in the template. Use multiple parameters to specify multiple modules.",
+                "it": "Nome del principale modulo usato dal template. Usa gli altri parametri per indicare più moduli.",
+                "pt-br": "Nome do módulo principal usado na predefinição. Utilize vários parâmetros para especificar vários módulos."
+            }
+        ],
+        [
+            "2",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 2",
+                "it": "Modulo 2",
+                "pt-br": "Módulo 2"
+            },
+            {
+                "en": "Name of the second module.",
+                "it": "Nome del secondo modulo.",
+                "pt-br": "Nome do segundo módulo."
+            }
+        ],
+        [
+            "3",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 3",
+                "it": "Modulo 3",
+                "pt-br": "Módulo 3"
+            },
+            {
+                "en": "Name of the third module.",
+                "it": "Nome del terzo modulo.",
+                "pt-br": "Nome do terceiro módulo."
+            }
+        ],
+        [
+            "4",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 4",
+                "it": "Modulo 4",
+                "pt-br": "Módulo 4"
+            },
+            {
+                "en": "Name of the fourth module.",
+                "it": "Nome del quarto modulo.",
+                "pt-br": "Nome do quarto módulo."
+            }
+        ],
+        [
+            "5",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 5",
+                "it": "Modulo 5",
+                "pt-br": "Módulo 5"
+            },
+            {
+                "en": "Name of the fifth module.",
+                "it": "Nome del quinto modulo.",
+                "pt-br": "Nome do quinto módulo."
+            }
+        ],
+        [
+            "6",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 6",
+                "it": "Modulo 6",
+                "pt-br": "Módulo 6"
+            },
+            {
+                "en": "Name of the sixth module.",
+                "it": "Nome del sesto modulo.",
+                "pt-br": "Nome do sexto módulo."
+            }
+        ],
+        [
+            "7",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 7",
+                "it": "Modulo 7",
+                "pt-br": "Módulo 7"
+            },
+            {
+                "en": "Name of the seventh module.",
+                "it": "Nome del settimo modulo.",
+                "pt-br": "Nome do sétimo módulo."
+            }
+        ],
+        [
+            "8",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 8",
+                "it": "Modulo 8",
+                "pt-br": "Módulo 8"
+            },
+            {
+                "en": "Name of the eighth module.",
+                "it": "Nome dell'ottavo modulo.",
+                "pt-br": "Nome do oitavo módulo."
+            }
+        ],
+        [
+            "9",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 9",
+                "it": "Modulo 9",
+                "pt-br": "Módulo 9"
+            },
+            {
+                "en": "Name of the ninth module.",
+                "it": "Nome del nono modulo.",
+                "pt-br": "Nome do nono módulo."
+            }
+        ],
+        [
+            "10",
+            "wiki-page-name",
+            false,
+            null,
+            null,
+            {
+                "en": "Module 10",
+                "it": "Modulo 10",
+                "pt-br": "Módulo 10"
+            },
+            {
+                "en": "Name of the tenth module.",
+                "it": "Nome del decimo modulo.",
+                "pt-br": "Nome do décimo módulo."
+            }
+        ],
+        [
+            "nocat",
+            "boolean",
+            false,
+            "0",
+            "1",
+            {
+                "en": "No category?",
+                "it": "Nessuna categoria?",
+                "pt-br": "Sem categoria?"
+            },
+            {
+                "en": "Whether to disable categorization.",
+                "it": "Per disattivare la categorizzazione automatica.",
+                "pt-br": "Se a categorização deve ser desativada."
+            }
+        ],
+        [
+            "wish",
+            "boolean",
+            false,
+            "0",
+            "1",
+            {
+                "en": "Wish?"
+            },
+            {
+                "en": "Whether this template is a candidate for conversion to Lua.",
+                "pt-br": "Se a predefinição é candidata a ser convertida em Lua."
+            }
+        ],
+        [
+            "category",
+            "string",
+            false,
+            "Lua-based templates",
+            null,
+            {
+                "en": "Custom category",
+                "it": "Categoria personalizzata",
+                "pt-br": "Categoria personalizada"
+            },
+            {
+                "en": "Main category to put on pages using this template, without namespace prefix.",
+                "it": "Categoria principale da aggiungere alle pagine che usano questo template, senza il prefisso del namespace.",
+                "pt-br": "Categoria principal para se colocar as páginas que utilizam a predefinição, sem o prefixo de espaço nominal."
+            }
+        ]
+    ]
+}
