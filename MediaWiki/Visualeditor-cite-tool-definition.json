@@ -1,0 +1,22 @@
+[
+	{
+		"name": "web",
+		"icon": "ref-cite-web",
+		"template": "Chú thích web"
+	},
+	{
+		"name": "book",
+		"icon": "ref-cite-book",
+		"template": "Chú thích sách"
+	},
+	{
+		"name": "news",
+		"icon": "ref-cite-news",
+		"template": "Chú thích báo"
+	},
+	{
+		"name": "journal",
+		"icon": "ref-cite-journal",
+		"template": "Chú thích tạp chí"
+	}
+]
