@@ -1,0 +1,55 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Limit values for Citation Style 1 and 2 identifier error checking, from Wikimedia Commons"
+    },
+    "sources": "For help, see [[c:Data talk:CS1/Identifier limits.tab|documentation]]; ask at [[:w:Help talk:Citation Style 1]]",
+    "schema": {
+        "fields": [
+            {
+                "name": "identifier",
+                "type": "string",
+                "title": {
+                    "en": "Identifier"
+                }
+            },
+            {
+                "name": "limit",
+                "type": "number",
+                "title": {
+                    "en": "Identifier limit value"
+                }
+            }
+        ]
+    },
+    "data": [
+        [
+            "OCLC",
+            10450000000
+        ],
+        [
+            "OSTI",
+            23010000
+        ],
+        [
+            "PMC",
+            11900000
+        ],
+        [
+            "PMID",
+            40400000
+        ],
+        [
+            "RFC",
+            9300
+        ],
+        [
+            "SSRN",
+            5200000
+        ],
+        [
+            "S2CID",
+            278000000
+        ]
+    ]
+}
