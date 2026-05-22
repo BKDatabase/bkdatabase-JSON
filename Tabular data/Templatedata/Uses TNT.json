@@ -1,0 +1,216 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Used to show that templates have been converted to use [[Module:TNT]] for internationalization."
+    },
+    "sources": "TemplateData for [[Template:Uses TNT]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Uses TNT"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            },
+            {
+                "name": "autovalue",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            "string",
+            true,
+            null,
+            null,
+            {
+                "en": "Translation Table 1"
+            },
+            {
+                "en": "Name of the main translation table used in the template. Use multiple parameters to specify multiple translation tables."
+            }
+        ],
+        [
+            "2",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 2"
+            },
+            {
+                "en": "Name of the second translation table."
+            }
+        ],
+        [
+            "3",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 3"
+            },
+            {
+                "en": "Name of the third translation table."
+            }
+        ],
+        [
+            "4",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 4"
+            },
+            {
+                "en": "Name of the fourth translation table."
+            }
+        ],
+        [
+            "5",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 5"
+            },
+            {
+                "en": "Name of the fifth translation table."
+            }
+        ],
+        [
+            "6",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 6"
+            },
+            {
+                "en": "Name of the sixth translation table."
+            }
+        ],
+        [
+            "7",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 7"
+            },
+            {
+                "en": "Name of the seventh translation table."
+            }
+        ],
+        [
+            "8",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 8"
+            },
+            {
+                "en": "Name of the eighth translation table."
+            }
+        ],
+        [
+            "9",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 9"
+            },
+            {
+                "en": "Name of the ninth translation table."
+            }
+        ],
+        [
+            "10",
+            "string",
+            false,
+            null,
+            null,
+            {
+                "en": "Translation Table 10"
+            },
+            {
+                "en": "Name of the tenth translation table."
+            }
+        ],
+        [
+            "nocat",
+            "boolean",
+            false,
+            "0",
+            "1",
+            {
+                "en": "No Category?"
+            },
+            {
+                "en": "Whether to disable categorization."
+            }
+        ],
+        [
+            "wish",
+            "boolean",
+            false,
+            "0",
+            "1",
+            {
+                "en": "Wish?"
+            },
+            {
+                "en": "Whether this template is a candidate for conversion to using [[Module:TNT]]."
+            }
+        ],
+        [
+            "category",
+            "string",
+            false,
+            "Templates using Module:TNT for internationalisation",
+            null,
+            {
+                "en": "Custom Category"
+            },
+            {
+                "en": "Main category to put on pages using this template, without namespace prefix."
+            }
+        ]
+    ]
+}
