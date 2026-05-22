@@ -1,0 +1,133 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Translation table for [[Template:Uses TNT]]",
+        "fr": "Table de traduction pour [[Template:Uses TNT]].",
+        "it": "Tabella di traduzione per il [[Template:Uses TNT]]",
+        "ja": "[[Template:Uses TNT]]の翻訳用テーブル",
+        "ko": "[[Template:Uses TNT]]를 위한 번역",
+        "nb": "Oversettelsestabell for [[Template:Uses TNT]].",
+        "nn": "Omsetjingstabell for [[Template:Uses TNT]].",
+        "pt": "Tabela de traduções para [[Template:Uses TNT]]",
+        "ru": "Таблица перевода шаблона [[Template:Uses TNT]]",
+        "sl": "Prevodna tabela za [[Template:Uses TNT]]",
+        "uk": "Таблиця перекладів для [[Template:Uses TNT]]"
+    },
+    "sources": "[[Module:TNT]] translation table for [[Module:Uses TNT]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "Uses TNT"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "id",
+                "type": "string"
+            },
+            {
+                "name": "message",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "header-template",
+            {
+                "en": "This template uses [[Module:TNT]] for localisation:",
+                "fr": "Ce modèle utilise [[Module:TNT]] pour la géolocalisation:",
+                "it": "Questo template usa [[Module:TNT]] per la localizzazione:",
+                "ja": "このテンプレートは地域化に[[Module:TNT]]を使用しています：",
+                "ko": "이 틀은 지역화를 위해 [[Module:TNT]]를 사용합니다:",
+                "nb": "Denne malen bruker [[Module:TNT]] for lokalisering.",
+                "nn": "Denne malen nyttar [[Module:TNT]] for lokalisering.",
+                "pt": "Esta predefinição utiliza [[Module:TNT]] para localização:",
+                "ru": "Этот шаблон использует для локализации [[Module:TNT|Модуль:TNT]]",
+                "sl": "Ta predloga uporablja za lokalizacijo [[Module:TNT|Modul:TNT]]:",
+                "uk": "Цей шаблон використовує [[Module:TNT|Модуль:TNT]] для локалізації:"
+            }
+        ],
+        [
+            "header-module",
+            {
+                "en": "This module uses [[Module:TNT]] for localisation:",
+                "fr": "Ce module utilise [[Module:TNT]] pour la géolocalisation:",
+                "it": "Questo modulo usa [[Module:TNT]] per la localizzazione:",
+                "ja": "このモジュールは地域化に[[Module:TNT]]を使用しています：",
+                "ko": "이 모듈은 지역화를 위해 [[Module:TNT]]를 사용합니다:",
+                "nb": "Denne modulen bruker [[Module:TNT]] for lokalisering.",
+                "nn": "Denne modulen nyttar [[Module:TNT]] for lokalisering.",
+                "pt": "Este módulo utiliza [[Module:TNT]] para localização:",
+                "ru": "Этот модуль использует для локализации [[Module:TNT|Модуль:TNT]]",
+                "sl": "Ta modul uporablja za lokalizacijo [[Module:TNT|Modul:TNT]]:",
+                "uk": "Цей модуль використовує [[Module:TNT|Модуль:TNT]] для локалізації:"
+            }
+        ],
+        [
+            "wishtext-template",
+            {
+                "en": "This template should use [[Module:TNT]] for localisation.",
+                "fr": "Ce modèle doit utiliser [[Module:TNT]] pour la géolocalisation.",
+                "it": "Questo template dovrebbe usare [[Module:TNT]] per la localizzazione.",
+                "ja": "このテンプレートは[[Module:TNT]]を使用して地域化する必要があります。",
+                "ko": "이 틀은 지역화를 위해 [[Module:TNT]]를 사용해야 합니다.",
+                "nb": "Denne malen bør bruke [[Module:TNT]] for lokalisering.",
+                "nn": "Denne malen bør nytta [[Module:TNT]] for lokalisering.",
+                "pt": "Esta predefinição deve utilizar [[Module:TNT]] para localização.",
+                "ru": "Этот шаблон должен использовать для локализации [[Module:TNT|Модуль:TNT]].",
+                "sl": "Ta predloga bi morala za lokalizacijo uporabljati [[Module:TNT|Modul:TNT]].",
+                "uk": "Цей шаблон повинен використовувати [[Module:TNT|Модуль:TNT]] для локалізації."
+            }
+        ],
+        [
+            "wishtext-module",
+            {
+                "en": "This module should use [[Module:TNT]] for localisation.",
+                "fr": "Ce module doit utiliser [[Module:TNT]] pour la géolocalisation.",
+                "it": "Questo modulo dovrebbe usare [[Module:TNT]] per la localizzazione.",
+                "ja": "このモジュールは[[Module:TNT]]を使用して地域化する必要があります。",
+                "ko": "이 모듈은 지역화를 위해 [[Module:TNT]]를 사용해야 합니다.",
+                "nb": "Denne modulen bør bruke [[Module:TNT]] for lokalisering.",
+                "nn": "Denne modulen bør nytta [[Module:TNT]] for lokalisering.",
+                "pt": "Este módulo deve utilizar [[Module:TNT]] para localização.",
+                "ru": "Этот модуль должен использовать для локализации [[Module:TNT|Модуль:TNT]].",
+                "sl": "Ta modul bi moral za lokalizacijo uporabljati [[Module:TNT|Modul:TNT]].",
+                "uk": "Цей модуль повинен використовувати [[Module:TNT|Модуль:TNT]] для локалізації."
+            }
+        ],
+        [
+            "logo-alt",
+            {
+                "en": "TNT",
+                "fr": "TNT",
+                "it": "TNT",
+                "ja": "TNT",
+                "ko": "TNT",
+                "nb": "TNT",
+                "nn": "TNT",
+                "pt": "TNT",
+                "ru": "TNT",
+                "sl": "TNT",
+                "uk": "TNT"
+            }
+        ],
+        [
+            "error-emptylist",
+            {
+                "en": "Error: no translation tables specified",
+                "fr": "Erreur: aucune table de traduction n'est spécifiée",
+                "it": "Errore: nessuna tabella di traduzione specificata",
+                "ja": "エラー：翻訳テーブルが指定されていません",
+                "ko": "오류: 번역 테이블이 지정되지 않음",
+                "nb": "Feil: ingen oversettelsestabell angitt",
+                "nn": "Feil: ingen omsetjingstabell oppgitt",
+                "pt": "Erro: nenhuma tabela de tradução especificada",
+                "ru": "Ошибка: не указаны таблицы перевода",
+                "sl": "Napaka: Določena ni nobena prevodna tabela.",
+                "uk": "Помилка: не зазначено таблиці перекладу"
+            }
+        ]
+    ]
+}
