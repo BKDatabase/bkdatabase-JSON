@@ -1,0 +1,108 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Translation table for the shared Module:No_globals",
+        "fr": "Table de traduction pour partager Module:No_globals",
+        "gsw": "Ibersetzigs-Tabälle fir s gmainsam bruucht Module:No_globals",
+        "pl": "Tabela tłumaczeń dla modułu Module:No_globals",
+        "pt": "Tabela de traduções para o Módulo:No_globals compartilhado",
+        "sl": "Prevodna tabela za skupni Modul:No_globals",
+        "sv": "Översättningstabell för den delade modulen Module:No_globals",
+        "tr": "Paylaşılan Modül:Küresel değil (Module:No globals) için çeviri tablosu",
+        "zh-hans": "模块:No_globals的共享翻译表",
+        "zh-hant": "模組:No_globals的共享翻譯表"
+    },
+    "sources": "Module [[Module:No globals|No globals]], see [[mw:Multilingual_Templates_and_Modules|bot documentation]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "No globals"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "id",
+                "type": "string"
+            },
+            {
+                "name": "message",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "err-read",
+            {
+                "ace": "Argumen kosong $1",
+                "ast": "Al tentar lleer $1 global nulu",
+                "az": "nil qloballı oxunmağa çalışıldı $1",
+                "be-tarask": "Спроба прачытаць пустую глябальную $1",
+                "bg": "Опит за четене на празна глобална променлива $1",
+                "bjn": "Argumen kosong $1",
+                "ca": "En tractar de llegir nil global $1",
+                "en": "Tried to read nil global $1",
+                "es": "Trató de leer nil global $1",
+                "fi": "Yritettiin lukea olematonta globaalia $1",
+                "fr": "Tentative de lecture de la variable globale nil $1",
+                "gl": "Tratou de ler un nulo global $1",
+                "gsw": "Het versuecht global $1 z läse",
+                "he": "נעשה ניסיון לקרוא משתנה גלובלי $1 שערכו nil",
+                "id": "Argumen kosong $1",
+                "ilo": "Pinadas a binasa ti nil global $1",
+                "lzh": "读取该全局变量出错：$1",
+                "ms": "Cuba membaca nil $1 global",
+                "nb": "Forsøkte å lese nil global $1",
+                "nn": "Prøvde å lese nil global $1",
+                "pl": "Próba odczytu nieistniejącej zmiennej globalnej: $1",
+                "pt": "Tentou ler $1 global nulo",
+                "sl": "Poskus branja ničelnega globalnega $1",
+                "sv": "Försökte läsa nil global $1",
+                "tr": "Sıfır küresel $1 okumaya çalıştı",
+                "vi": "Cố đọc biến toàn cục nil $1",
+                "wuu": "读取该全局变量出错：$1",
+                "xal": "nil глобал умшҗ кев: $1",
+                "yue": "試過去讀冇嘢嘅全域值 $1",
+                "zh-hans": "尝试读取全域空值$1",
+                "zh-hant": "嘗試讀取全域空值$1"
+            }
+        ],
+        [
+            "err-write",
+            {
+                "ace": "Argumen kosong $1",
+                "ast": "Al tentar escribir $1 global",
+                "az": "Qlobal yazılmağa çalışıldı $1",
+                "be-tarask": "Спроба прысваеньня глябальнай $1",
+                "bg": "Опит за запис на глобална променлива $1",
+                "bjn": "Argumen kosong $1",
+                "ca": "En tractar d'escriure global $1",
+                "en": "Tried to write global $1",
+                "es": "Trató de escribir global $1",
+                "fi": "Yritettiin kirjoittaa globaalia $1",
+                "fr": "Tentative d'écriture de la variable globale $1",
+                "gl": "Tratou de escribir un global $1",
+                "gsw": "Het versuecht global $1 z schrybe",
+                "he": "ניסיון לכתוב ערך למשתנה גלובלי $1",
+                "id": "Argumen kosong $1",
+                "ilo": "Pinadas a sinurat ti global $1",
+                "lzh": "写入该全局变量出错：$1",
+                "ms": "Cuba untuk memaparkan $1 global",
+                "nb": "Forsøkte å skrive global $1",
+                "nn": "Prøvde å skrive global $1",
+                "pl": "Próba zapisu zmiennej globalnej: $1",
+                "pt": "Tentou escrever $1 global",
+                "sl": "Poskus zapisovanja v globalni $1",
+                "sv": "Försökte skriva global $1",
+                "tr": "$1 küresel yazmaya çalıştı",
+                "vi": "Cố ghi biến toàn cục $1",
+                "wuu": "写入该全局变量出错：$1",
+                "xal": "Глобал бичҗ кев: $1",
+                "yue": "試過去寫入全域值 $1",
+                "zh-hans": "尝试写入全域$1",
+                "zh-hant": "嘗試寫入全域$1"
+            }
+        ]
+    ]
+}
