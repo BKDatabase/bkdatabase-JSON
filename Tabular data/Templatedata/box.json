@@ -1,0 +1,100 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "This is the template for making boxes",
+        "vi": "Đây là bản mẫu để tạo một dạng hộp."
+    },
+    "sources": "Documentation for [[Template:Box]], original work by [[User:Bapham123]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Box"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "suggested",
+                "type": "boolean"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "title",
+            "line",
+            true,
+            false,
+            {
+                "en": "Title",
+                "vi": "Tiêu đề"
+            },
+            {
+                "en": "Title of the frame",
+                "vi": "Tiêu đề của khung"
+            }
+        ],
+        [
+            "style",
+            "line",
+            false,
+            false,
+            {
+                "en": "Style",
+                "vi": "Phong cách"
+            },
+            {
+                "en": "Extra CSS",
+                "vi": "Mã nguồn CSS bổ sung"
+            }
+        ],
+        [
+            "color",
+            "string",
+            false,
+            true,
+            {
+                "en": "Color",
+                "vi": "Màu"
+            },
+            {
+                "en": "Color of the header",
+                "vi": "Màu chủ đạo của tiêu đề"
+            }
+        ],
+        [
+            "content",
+            "content",
+            true,
+            false,
+            {
+                "en": "Content",
+                "vi": "Nội dung"
+            },
+            {
+                "en": "Content of the frame",
+                "vi": "Nội dung của khung"
+            }
+        ]
+    ]
+}
