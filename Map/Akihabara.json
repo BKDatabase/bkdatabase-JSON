@@ -1,0 +1,2760 @@
+{
+    "license": "ODbL-1.0",
+    "description": {
+        "en": "Akihabara, town located in Chiyoda, Tokyo, Japan"
+    },
+    "sources": "Copied from [https://www.openstreetmap.org/relation/18158693 OpenStreetMap relation ID 18158693], It has been converted to GeoJSON format using the following tool: [https://mygeodata.cloud MyGeodata].",
+    "zoom": 18,
+    "latitude": 35.70225,
+    "longitude": 139.77427,
+    "data": {
+        "type": "FeatureCollection",
+        "name": "multipolygons",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_id": "18158693",
+                    "name": "秋葉原",
+                    "type": "boundary",
+                    "admin_level": "9",
+                    "boundary": "administrative",
+                    "place": "neighbourhood",
+                    "other_tags": "\"name:en\"=>\"Akihabara\",\"name:es\"=>\"Akihabara\",\"name:fr\"=>\"Akihabara\",\"name:it\"=>\"Akihabara\",\"name:ja\"=>\"秋葉原\",\"name:ja-Hira\"=>\"あきはばら\",\"name:ja-Latn\"=>\"Akihabara\",\"name:ko\"=>\"아키하바라\",\"name:zh\"=>\"秋葉原\",\"postal_code\"=>\"110-0006\",\"wikidata\"=>\"Q418096\",\"wikipedia\"=>\"ja:秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7751015,
+                                35.7016191
+                            ],
+                            [
+                                139.7756534,
+                                35.7015232
+                            ],
+                            [
+                                139.7757721,
+                                35.7026198
+                            ],
+                            [
+                                139.7755139,
+                                35.7026408
+                            ],
+                            [
+                                139.7745431,
+                                35.7027367
+                            ],
+                            [
+                                139.773685,
+                                35.7027975
+                            ],
+                            [
+                                139.773393,
+                                35.7017533
+                            ],
+                            [
+                                139.7745229,
+                                35.7016582
+                            ],
+                            [
+                                139.7751015,
+                                35.7016191
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216408",
+                    "name": "アヅマビル",
+                    "building": "yes",
+                    "other_tags": "\"addr:city\"=>\"千代田区\",\"addr:neighbourhood\"=>\"4\",\"addr:postcode\"=>\"7\",\"addr:province\"=>\"東京都\",\"addr:quarter\"=>\"外神田\",\"building:levels\"=>\"13\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7731725,
+                                35.7019166
+                            ],
+                            [
+                                139.7731626,
+                                35.7018241
+                            ],
+                            [
+                                139.773232,
+                                35.7018191
+                            ],
+                            [
+                                139.7732419,
+                                35.7019117
+                            ],
+                            [
+                                139.7731725,
+                                35.7019166
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216411",
+                    "name": "鈴木ビル",
+                    "building": "yes",
+                    "other_tags": "\"name:en\"=>\"Suzuki Building\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7733371,
+                                35.70185
+                            ],
+                            [
+                                139.7732423,
+                                35.7018558
+                            ],
+                            [
+                                139.77324,
+                                35.7018177
+                            ],
+                            [
+                                139.773326,
+                                35.7018099
+                            ],
+                            [
+                                139.7733371,
+                                35.70185
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216413",
+                    "name": "ロイヤルソフトセンター",
+                    "building": "commercial",
+                    "other_tags": "\"branch\"=>\"東京支店\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7733604,
+                                35.7019134
+                            ],
+                            [
+                                139.7732505,
+                                35.7019193
+                            ],
+                            [
+                                139.773246,
+                                35.7018605
+                            ],
+                            [
+                                139.7733375,
+                                35.7018543
+                            ],
+                            [
+                                139.7733604,
+                                35.7019134
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216415",
+                    "name": "えひめ飲料",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.773139,
+                                35.7021503
+                            ],
+                            [
+                                139.7731345,
+                                35.7020496
+                            ],
+                            [
+                                139.7732757,
+                                35.7020373
+                            ],
+                            [
+                                139.773289,
+                                35.7021372
+                            ],
+                            [
+                                139.773139,
+                                35.7021503
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216417",
+                    "name": "秋葉原STビル",
+                    "building": "yes",
+                    "other_tags": "\"name:en\"=>\"Akihabara ST Building\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7733926,
+                                35.7020143
+                            ],
+                            [
+                                139.7732697,
+                                35.7020249
+                            ],
+                            [
+                                139.7732605,
+                                35.7019272
+                            ],
+                            [
+                                139.7733665,
+                                35.7019208
+                            ],
+                            [
+                                139.7733926,
+                                35.7020143
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216421",
+                    "name": "KKT秋葉原ビル",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7731342,
+                                35.7020427
+                            ],
+                            [
+                                139.7731248,
+                                35.7019689
+                            ],
+                            [
+                                139.7732533,
+                                35.7019581
+                            ],
+                            [
+                                139.7732627,
+                                35.7020318
+                            ],
+                            [
+                                139.7731342,
+                                35.7020427
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216423",
+                    "name": "松源",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"13\",\"addr:housenumber\"=>\"5\",\"addr:neighbourhood\"=>\"4丁目\",\"addr:quarter\"=>\"外神田\",\"name:en\"=>\"Matsugen\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7733019,
+                                35.7021372
+                            ],
+                            [
+                                139.7732871,
+                                35.7020327
+                            ],
+                            [
+                                139.7733959,
+                                35.7020227
+                            ],
+                            [
+                                139.7734252,
+                                35.7021262
+                            ],
+                            [
+                                139.7733019,
+                                35.7021372
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "89216425",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.773115,
+                                35.7019634
+                            ],
+                            [
+                                139.773111,
+                                35.7019291
+                            ],
+                            [
+                                139.7732429,
+                                35.701919
+                            ],
+                            [
+                                139.7732469,
+                                35.7019533
+                            ],
+                            [
+                                139.773115,
+                                35.7019634
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966798",
+                    "name": "OHTORI PARKING TOWER",
+                    "amenity": "parking",
+                    "building": "parking",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:quarter\"=>\"秋葉原\",\"parking\"=>\"multi-storey\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7745372,
+                                35.7022787
+                            ],
+                            [
+                                139.7745307,
+                                35.7022164
+                            ],
+                            [
+                                139.7746752,
+                                35.7022065
+                            ],
+                            [
+                                139.7746817,
+                                35.7022687
+                            ],
+                            [
+                                139.7745372,
+                                35.7022787
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966803",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:housenumber\"=>\"10\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7751122,
+                                35.7020924
+                            ],
+                            [
+                                139.7751191,
+                                35.7021595
+                            ],
+                            [
+                                139.7751205,
+                                35.702173
+                            ],
+                            [
+                                139.7749566,
+                                35.7021841
+                            ],
+                            [
+                                139.7749483,
+                                35.7021035
+                            ],
+                            [
+                                139.7751122,
+                                35.7020924
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966805",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"2\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7748183,
+                                35.7019976
+                            ],
+                            [
+                                139.774811,
+                                35.7019258
+                            ],
+                            [
+                                139.7749401,
+                                35.7019171
+                            ],
+                            [
+                                139.7749474,
+                                35.7019889
+                            ],
+                            [
+                                139.7748183,
+                                35.7019976
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966808",
+                    "name": "テンポスアキバ",
+                    "building": "retail",
+                    "shop": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:housenumber\"=>\"4\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7745393,
+                                35.7021007
+                            ],
+                            [
+                                139.7747442,
+                                35.70209
+                            ],
+                            [
+                                139.7747512,
+                                35.7021789
+                            ],
+                            [
+                                139.7747995,
+                                35.7021764
+                            ],
+                            [
+                                139.7748012,
+                                35.7021981
+                            ],
+                            [
+                                139.774548,
+                                35.7022112
+                            ],
+                            [
+                                139.7745393,
+                                35.7021007
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966811",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"2\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7747107,
+                                35.7019917
+                            ],
+                            [
+                                139.7747066,
+                                35.7019376
+                            ],
+                            [
+                                139.774752,
+                                35.7019354
+                            ],
+                            [
+                                139.7747561,
+                                35.7019894
+                            ],
+                            [
+                                139.7747107,
+                                35.7019917
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966812",
+                    "name": "アキバビル",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:quarter\"=>\"秋葉原\",\"source:geometry\"=>\"Bing\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7748388,
+                                35.7021846
+                            ],
+                            [
+                                139.7748313,
+                                35.7021114
+                            ],
+                            [
+                                139.7748854,
+                                35.7021078
+                            ],
+                            [
+                                139.7749441,
+                                35.7021038
+                            ],
+                            [
+                                139.7749516,
+                                35.702177
+                            ],
+                            [
+                                139.7748388,
+                                35.7021846
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966817",
+                    "building": "retail",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:housenumber\"=>\"7\",\"addr:postcode\"=>\"110-0006\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7748491,
+                                35.702259
+                            ],
+                            [
+                                139.7748423,
+                                35.7021939
+                            ],
+                            [
+                                139.7749426,
+                                35.702187
+                            ],
+                            [
+                                139.7749494,
+                                35.702252
+                            ],
+                            [
+                                139.7748491,
+                                35.702259
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966818",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"2\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7745623,
+                                35.7020121
+                            ],
+                            [
+                                139.7745577,
+                                35.7019548
+                            ],
+                            [
+                                139.7747051,
+                                35.7019471
+                            ],
+                            [
+                                139.7747096,
+                                35.7020043
+                            ],
+                            [
+                                139.7745623,
+                                35.7020121
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966822",
+                    "name": "エコロパーク",
+                    "amenity": "parking",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.774782,
+                                35.7022593
+                            ],
+                            [
+                                139.7747761,
+                                35.702203
+                            ],
+                            [
+                                139.774835,
+                                35.702199
+                            ],
+                            [
+                                139.7748409,
+                                35.7022553
+                            ],
+                            [
+                                139.774782,
+                                35.7022593
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966825",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\",\"building:levels\"=>\"8\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7748656,
+                                35.7025897
+                            ],
+                            [
+                                139.7747738,
+                                35.7025982
+                            ],
+                            [
+                                139.7747583,
+                                35.7025996
+                            ],
+                            [
+                                139.7747326,
+                                35.7024154
+                            ],
+                            [
+                                139.7748399,
+                                35.7024056
+                            ],
+                            [
+                                139.7748656,
+                                35.7025897
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966829",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7747742,
+                                35.7023559
+                            ],
+                            [
+                                139.7747667,
+                                35.7023019
+                            ],
+                            [
+                                139.7748441,
+                                35.7022948
+                            ],
+                            [
+                                139.7748516,
+                                35.7023488
+                            ],
+                            [
+                                139.7747742,
+                                35.7023559
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966833",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7749018,
+                                35.7023511
+                            ],
+                            [
+                                139.7748612,
+                                35.7023549
+                            ],
+                            [
+                                139.7748522,
+                                35.7022898
+                            ],
+                            [
+                                139.7748928,
+                                35.702286
+                            ],
+                            [
+                                139.7749018,
+                                35.7023511
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966847",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7749455,
+                                35.7023491
+                            ],
+                            [
+                                139.7749371,
+                                35.7022892
+                            ],
+                            [
+                                139.7750023,
+                                35.7022832
+                            ],
+                            [
+                                139.7750106,
+                                35.7023432
+                            ],
+                            [
+                                139.7749455,
+                                35.7023491
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966851",
+                    "name": "第三タムラビル",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:housenumber\"=>\"4\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7745349,
+                                35.7020969
+                            ],
+                            [
+                                139.7745319,
+                                35.7020588
+                            ],
+                            [
+                                139.7746601,
+                                35.7020521
+                            ],
+                            [
+                                139.7746631,
+                                35.7020902
+                            ],
+                            [
+                                139.7745349,
+                                35.7020969
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966852",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7750198,
+                                35.7023417
+                            ],
+                            [
+                                139.7750118,
+                                35.7022839
+                            ],
+                            [
+                                139.7751115,
+                                35.7022748
+                            ],
+                            [
+                                139.7751195,
+                                35.7023326
+                            ],
+                            [
+                                139.7750198,
+                                35.7023417
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966854",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\",\"building:levels\"=>\"4\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.774872,
+                                35.7025927
+                            ],
+                            [
+                                139.7748568,
+                                35.7024839
+                            ],
+                            [
+                                139.7749238,
+                                35.7024777
+                            ],
+                            [
+                                139.7749389,
+                                35.7025866
+                            ],
+                            [
+                                139.774872,
+                                35.7025927
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966859",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"2\",\"addr:quarter\"=>\"秋葉原\",\"building:levels\"=>\"4\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7745752,
+                                35.7019464
+                            ],
+                            [
+                                139.7745686,
+                                35.7018903
+                            ],
+                            [
+                                139.7746609,
+                                35.7018831
+                            ],
+                            [
+                                139.7746675,
+                                35.7019393
+                            ],
+                            [
+                                139.7745752,
+                                35.7019464
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966860",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:housenumber\"=>\"11\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7749436,
+                                35.7021008
+                            ],
+                            [
+                                139.7749368,
+                                35.7020345
+                            ],
+                            [
+                                139.7750858,
+                                35.7020244
+                            ],
+                            [
+                                139.7751058,
+                                35.7020385
+                            ],
+                            [
+                                139.775111,
+                                35.7020895
+                            ],
+                            [
+                                139.7749436,
+                                35.7021008
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966865",
+                    "name": "横田ビル",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:housenumber\"=>\"7\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7746878,
+                                35.7022698
+                            ],
+                            [
+                                139.7746815,
+                                35.7022101
+                            ],
+                            [
+                                139.7747637,
+                                35.7022044
+                            ],
+                            [
+                                139.77477,
+                                35.7022641
+                            ],
+                            [
+                                139.7746878,
+                                35.7022698
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966869",
+                    "building": "hotel",
+                    "other_tags": "\"addr:block_number\"=>\"2\",\"addr:quarter\"=>\"秋葉原\",\"building:levels\"=>\"10\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7749544,
+                                35.7019962
+                            ],
+                            [
+                                139.7749211,
+                                35.7016712
+                            ],
+                            [
+                                139.7750669,
+                                35.7016614
+                            ],
+                            [
+                                139.7750959,
+                                35.7019439
+                            ],
+                            [
+                                139.7750989,
+                                35.7019739
+                            ],
+                            [
+                                139.7750059,
+                                35.7019801
+                            ],
+                            [
+                                139.7750072,
+                                35.7019926
+                            ],
+                            [
+                                139.7749544,
+                                35.7019962
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966876",
+                    "landuse": "construction"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7746088,
+                                35.7018836
+                            ],
+                            [
+                                139.7745874,
+                                35.7017041
+                            ],
+                            [
+                                139.774908,
+                                35.7016788
+                            ],
+                            [
+                                139.7749352,
+                                35.7019059
+                            ],
+                            [
+                                139.7746832,
+                                35.7019258
+                            ],
+                            [
+                                139.7746775,
+                                35.7018782
+                            ],
+                            [
+                                139.7746088,
+                                35.7018836
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966879",
+                    "name": "明治安田生命秋葉原ビル",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:housenumber\"=>\"9\",\"addr:quarter\"=>\"秋葉原\",\"building:levels\"=>\"8\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7749451,
+                                35.7025857
+                            ],
+                            [
+                                139.7749286,
+                                35.7024673
+                            ],
+                            [
+                                139.7748614,
+                                35.7024735
+                            ],
+                            [
+                                139.7748461,
+                                35.702363
+                            ],
+                            [
+                                139.7751187,
+                                35.702338
+                            ],
+                            [
+                                139.7751252,
+                                35.702385
+                            ],
+                            [
+                                139.7751342,
+                                35.7024498
+                            ],
+                            [
+                                139.7751505,
+                                35.7025669
+                            ],
+                            [
+                                139.7749805,
+                                35.7025825
+                            ],
+                            [
+                                139.7749451,
+                                35.7025857
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966881",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7747602,
+                                35.7023097
+                            ],
+                            [
+                                139.7747686,
+                                35.7023696
+                            ],
+                            [
+                                139.7748372,
+                                35.7023633
+                            ],
+                            [
+                                139.7748422,
+                                35.7023992
+                            ],
+                            [
+                                139.7747111,
+                                35.7024112
+                            ],
+                            [
+                                139.7746978,
+                                35.7023155
+                            ],
+                            [
+                                139.7747602,
+                                35.7023097
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966883",
+                    "name": "正栄食品工業株式会社",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"5\",\"addr:quarter\"=>\"秋葉原\",\"building:levels\"=>\"9\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7745579,
+                                35.7025953
+                            ],
+                            [
+                                139.774547,
+                                35.7023253
+                            ],
+                            [
+                                139.7746882,
+                                35.702313
+                            ],
+                            [
+                                139.7747254,
+                                35.7026044
+                            ],
+                            [
+                                139.7745884,
+                                35.7026163
+                            ],
+                            [
+                                139.7745579,
+                                35.7025953
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "161966887",
+                    "amenity": "parking",
+                    "other_tags": "\"access\"=>\"private\",\"parking\"=>\"surface\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7748887,
+                                35.7020348
+                            ],
+                            [
+                                139.7749328,
+                                35.7020318
+                            ],
+                            [
+                                139.7749399,
+                                35.702101
+                            ],
+                            [
+                                139.7748958,
+                                35.702104
+                            ],
+                            [
+                                139.7748887,
+                                35.7020348
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405062",
+                    "name": "ドーミーイン秋葉原",
+                    "building": "hotel",
+                    "tourism": "hotel",
+                    "other_tags": "\"addr:block_number\"=>\"12\",\"addr:housenumber\"=>\"5\",\"addr:neighbourhood\"=>\"4丁目\",\"addr:quarter\"=>\"外神田\",\"check_date\"=>\"2025-04-10\",\"name:en\"=>\"Dormy Inn Akihabara\",\"wikidata\"=>\"Q111866059\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7732512,
+                                35.702714
+                            ],
+                            [
+                                139.7732395,
+                                35.7026092
+                            ],
+                            [
+                                139.7731925,
+                                35.7026127
+                            ],
+                            [
+                                139.7731784,
+                                35.7024856
+                            ],
+                            [
+                                139.7733878,
+                                35.7024702
+                            ],
+                            [
+                                139.7734016,
+                                35.7025943
+                            ],
+                            [
+                                139.7733236,
+                                35.7026001
+                            ],
+                            [
+                                139.7733356,
+                                35.7027078
+                            ],
+                            [
+                                139.7732512,
+                                35.702714
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405077",
+                    "name": "ウチダビル",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"12\",\"addr:housenumber\"=>\"2\",\"addr:neighbourhood\"=>\"4丁目\",\"addr:quarter\"=>\"外神田\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7731818,
+                                35.7024349
+                            ],
+                            [
+                                139.7731739,
+                                35.7023695
+                            ],
+                            [
+                                139.7732602,
+                                35.7023626
+                            ],
+                            [
+                                139.7732681,
+                                35.7024281
+                            ],
+                            [
+                                139.7731818,
+                                35.7024349
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405096",
+                    "name": "ヒューリック秋葉原ビル",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"12\",\"addr:neighbourhood\"=>\"4丁目\",\"addr:quarter\"=>\"外神田\",\"building:levels\"=>\"8\",\"name:en\"=>\"HULIC Akihabara Building\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7733942,
+                                35.7024417
+                            ],
+                            [
+                                139.7735272,
+                                35.7024331
+                            ],
+                            [
+                                139.773534,
+                                35.7025023
+                            ],
+                            [
+                                139.7734425,
+                                35.7025082
+                            ],
+                            [
+                                139.7734451,
+                                35.7025347
+                            ],
+                            [
+                                139.7734036,
+                                35.7025374
+                            ],
+                            [
+                                139.7733942,
+                                35.7024417
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405111",
+                    "building": "apartments"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7731416,
+                                35.7021903
+                            ],
+                            [
+                                139.7734389,
+                                35.7021636
+                            ],
+                            [
+                                139.7734978,
+                                35.7023361
+                            ],
+                            [
+                                139.773279,
+                                35.7023562
+                            ],
+                            [
+                                139.7732727,
+                                35.7023099
+                            ],
+                            [
+                                139.7731593,
+                                35.70232
+                            ],
+                            [
+                                139.7731416,
+                                35.7021903
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405126",
+                    "landuse": "construction",
+                    "other_tags": "\"addr:block_number\"=>\"12\",\"addr:housenumber\"=>\"6\",\"addr:neighbourhood\"=>\"4丁目\",\"addr:quarter\"=>\"外神田\",\"check_date\"=>\"2025-09-20\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7735544,
+                                35.7026914
+                            ],
+                            [
+                                139.773425,
+                                35.7027013
+                            ],
+                            [
+                                139.7734065,
+                                35.7025466
+                            ],
+                            [
+                                139.7735345,
+                                35.7025385
+                            ],
+                            [
+                                139.7735544,
+                                35.7026914
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405133",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7731671,
+                                35.7023643
+                            ],
+                            [
+                                139.7731637,
+                                35.7023336
+                            ],
+                            [
+                                139.773258,
+                                35.7023269
+                            ],
+                            [
+                                139.7732613,
+                                35.7023575
+                            ],
+                            [
+                                139.7731671,
+                                35.7023643
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405153",
+                    "name": "秋葉原アークビル",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"12\",\"addr:housenumber\"=>\"6\",\"addr:neighbourhood\"=>\"4丁目\",\"addr:quarter\"=>\"外神田\",\"name:en\"=>\"Akihabara Arc Building\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7733423,
+                                35.7027072
+                            ],
+                            [
+                                139.7733309,
+                                35.7026067
+                            ],
+                            [
+                                139.7734075,
+                                35.7026009
+                            ],
+                            [
+                                139.773419,
+                                35.7027014
+                            ],
+                            [
+                                139.7733423,
+                                35.7027072
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405162",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7731809,
+                                35.7024814
+                            ],
+                            [
+                                139.7731761,
+                                35.7024393
+                            ],
+                            [
+                                139.7732812,
+                                35.7024313
+                            ],
+                            [
+                                139.7732861,
+                                35.7024734
+                            ],
+                            [
+                                139.7731809,
+                                35.7024814
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405165",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7732948,
+                                35.7024687
+                            ],
+                            [
+                                139.7732894,
+                                35.7024209
+                            ],
+                            [
+                                139.7733223,
+                                35.7024184
+                            ],
+                            [
+                                139.7733276,
+                                35.7024663
+                            ],
+                            [
+                                139.7732948,
+                                35.7024687
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175405171",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7733852,
+                                35.7024333
+                            ],
+                            [
+                                139.7733879,
+                                35.7024606
+                            ],
+                            [
+                                139.7733362,
+                                35.7024639
+                            ],
+                            [
+                                139.7733278,
+                                35.702378
+                            ],
+                            [
+                                139.7734897,
+                                35.7023676
+                            ],
+                            [
+                                139.7734954,
+                                35.7024262
+                            ],
+                            [
+                                139.7733852,
+                                35.7024333
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175535956",
+                    "building": "commercial"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7751731,
+                                35.7018757
+                            ],
+                            [
+                                139.7751506,
+                                35.7016554
+                            ],
+                            [
+                                139.7753368,
+                                35.7016428
+                            ],
+                            [
+                                139.7754255,
+                                35.7016969
+                            ],
+                            [
+                                139.775442,
+                                35.7018576
+                            ],
+                            [
+                                139.7751731,
+                                35.7018757
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175535965",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7751835,
+                                35.7020496
+                            ],
+                            [
+                                139.7751775,
+                                35.7019907
+                            ],
+                            [
+                                139.7752544,
+                                35.7019855
+                            ],
+                            [
+                                139.7752604,
+                                35.7020444
+                            ],
+                            [
+                                139.7751835,
+                                35.7020496
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175536139",
+                    "building": "apartments"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7751747,
+                                35.7018856
+                            ],
+                            [
+                                139.7754414,
+                                35.7018676
+                            ],
+                            [
+                                139.7754511,
+                                35.7019631
+                            ],
+                            [
+                                139.7751844,
+                                35.7019811
+                            ],
+                            [
+                                139.7751747,
+                                35.7018856
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175536184",
+                    "building": "commercial",
+                    "other_tags": "\"building:levels\"=>\"10\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7752295,
+                                35.7025468
+                            ],
+                            [
+                                139.7751939,
+                                35.702229
+                            ],
+                            [
+                                139.7752249,
+                                35.7022267
+                            ],
+                            [
+                                139.775218,
+                                35.7021651
+                            ],
+                            [
+                                139.7754877,
+                                35.7021452
+                            ],
+                            [
+                                139.7755246,
+                                35.7024748
+                            ],
+                            [
+                                139.7754877,
+                                35.7025075
+                            ],
+                            [
+                                139.7754628,
+                                35.7025296
+                            ],
+                            [
+                                139.7752295,
+                                35.7025468
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175536209",
+                    "building": "commercial"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7751844,
+                                35.7020617
+                            ],
+                            [
+                                139.775268,
+                                35.7020561
+                            ],
+                            [
+                                139.7752653,
+                                35.7020297
+                            ],
+                            [
+                                139.775459,
+                                35.7020166
+                            ],
+                            [
+                                139.7754662,
+                                35.7020873
+                            ],
+                            [
+                                139.7751889,
+                                35.702106
+                            ],
+                            [
+                                139.7751844,
+                                35.7020617
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175536234",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"1\",\"addr:housenumber\"=>\"2\",\"addr:neighbourhood\"=>\"5丁目\",\"addr:quarter\"=>\"上野\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7753157,
+                                35.702914
+                            ],
+                            [
+                                139.7753056,
+                                35.7028041
+                            ],
+                            [
+                                139.7754587,
+                                35.7027893
+                            ],
+                            [
+                                139.7755484,
+                                35.7028582
+                            ],
+                            [
+                                139.7755623,
+                                35.7029778
+                            ],
+                            [
+                                139.7753765,
+                                35.7029931
+                            ],
+                            [
+                                139.7753791,
+                                35.7030143
+                            ],
+                            [
+                                139.7752614,
+                                35.7030232
+                            ],
+                            [
+                                139.7752579,
+                                35.7029918
+                            ],
+                            [
+                                139.7752499,
+                                35.7029199
+                            ],
+                            [
+                                139.7753157,
+                                35.702914
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "175536527",
+                    "name": "秋葉原練塀公園",
+                    "leisure": "park",
+                    "other_tags": "\"access\"=>\"no\",\"name:en\"=>\"Akihabara Neribei Park\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7742161,
+                                35.7025856
+                            ],
+                            [
+                                139.7740553,
+                                35.7017365
+                            ],
+                            [
+                                139.7741189,
+                                35.7017318
+                            ],
+                            [
+                                139.7742125,
+                                35.7017223
+                            ],
+                            [
+                                139.7742787,
+                                35.7017846
+                            ],
+                            [
+                                139.7742784,
+                                35.7017891
+                            ],
+                            [
+                                139.7742501,
+                                35.7024559
+                            ],
+                            [
+                                139.7742161,
+                                35.7025856
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "196306455",
+                    "name": "YOK bldg.",
+                    "building": "commercial"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7759461,
+                                35.7019905
+                            ],
+                            [
+                                139.7759392,
+                                35.7019313
+                            ],
+                            [
+                                139.7761349,
+                                35.7019161
+                            ],
+                            [
+                                139.7761419,
+                                35.7019753
+                            ],
+                            [
+                                139.7759461,
+                                35.7019905
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "329586118",
+                    "name": "(株)木下",
+                    "building": "industrial",
+                    "other_tags": "\"branch\"=>\"神田事業所\",\"contact:phone\"=>\"+81 3 3253 3366\",\"name:en\"=>\"Kinoshita Inc.\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7740114,
+                                35.7015774
+                            ],
+                            [
+                                139.7740048,
+                                35.7015217
+                            ],
+                            [
+                                139.7741373,
+                                35.7015112
+                            ],
+                            [
+                                139.774144,
+                                35.7015669
+                            ],
+                            [
+                                139.7740114,
+                                35.7015774
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "329586119",
+                    "name": "ParkJapan高架下駐車場",
+                    "amenity": "motorcycle_parking",
+                    "other_tags": "\"access\"=>\"yes\",\"capacity\"=>\"8\",\"fee\"=>\"yes\",\"opening_hours\"=>\"24/7\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7734277,
+                                35.7016302
+                            ],
+                            [
+                                139.7734216,
+                                35.7015698
+                            ],
+                            [
+                                139.7736512,
+                                35.701539
+                            ],
+                            [
+                                139.7736646,
+                                35.7016005
+                            ],
+                            [
+                                139.7734277,
+                                35.7016302
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "329587958",
+                    "building": "yes",
+                    "other_tags": "\"addr:block_number\"=>\"12\",\"addr:housenumber\"=>\"5\",\"addr:neighbourhood\"=>\"4丁目\",\"addr:quarter\"=>\"外神田\",\"building:levels\"=>\"4\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.773202,
+                                35.702719
+                            ],
+                            [
+                                139.7731902,
+                                35.7026193
+                            ],
+                            [
+                                139.7732325,
+                                35.702616
+                            ],
+                            [
+                                139.7732443,
+                                35.7027157
+                            ],
+                            [
+                                139.773202,
+                                35.702719
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "503056677",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"10\",\"addr:housenumber\"=>\"6;7\",\"addr:neighbourhood\"=>\"1丁目\",\"addr:quarter\"=>\"台東\",\"building:levels\"=>\"7\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7758861,
+                                35.7014156
+                            ],
+                            [
+                                139.7759924,
+                                35.7014064
+                            ],
+                            [
+                                139.7759989,
+                                35.7014588
+                            ],
+                            [
+                                139.7760892,
+                                35.7014509
+                            ],
+                            [
+                                139.7761037,
+                                35.7015399
+                            ],
+                            [
+                                139.7759409,
+                                35.701553
+                            ],
+                            [
+                                139.7759006,
+                                35.7015255
+                            ],
+                            [
+                                139.7758889,
+                                35.7014368
+                            ],
+                            [
+                                139.7758861,
+                                35.7014156
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "503056679",
+                    "name": "第一共和ビル",
+                    "building": "commercial",
+                    "other_tags": "\"addr:block_number\"=>\"29\",\"addr:city\"=>\"台東区\",\"addr:housenumber\"=>\"4\",\"addr:neighbourhood\"=>\"1丁目\",\"addr:province\"=>\"東京都\",\"addr:quarter\"=>\"台東\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7759291,
+                                35.7018563
+                            ],
+                            [
+                                139.776095,
+                                35.7018428
+                            ],
+                            [
+                                139.7760994,
+                                35.7018782
+                            ],
+                            [
+                                139.7759334,
+                                35.7018917
+                            ],
+                            [
+                                139.7759291,
+                                35.7018563
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "509606199",
+                    "name": "秋葉原町会 防災資材倉庫",
+                    "building": "warehouse"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7740841,
+                                35.7018599
+                            ],
+                            [
+                                139.7741114,
+                                35.7018563
+                            ],
+                            [
+                                139.7741167,
+                                35.7018826
+                            ],
+                            [
+                                139.7740894,
+                                35.7018863
+                            ],
+                            [
+                                139.7740841,
+                                35.7018599
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "509606200",
+                    "name": "長者町一丁目町会 防災資機材倉庫",
+                    "building": "warehouse"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7740887,
+                                35.7018909
+                            ],
+                            [
+                                139.7741167,
+                                35.7018874
+                            ],
+                            [
+                                139.7741212,
+                                35.7019116
+                            ],
+                            [
+                                139.7740933,
+                                35.7019151
+                            ],
+                            [
+                                139.7740887,
+                                35.7018909
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "511624809",
+                    "name": "アパホテル",
+                    "building": "hotel",
+                    "tourism": "hotel",
+                    "other_tags": "\"addr:block_number\"=>\"29\",\"addr:housenumber\"=>\"2\",\"addr:neighbourhood\"=>\"1丁目\",\"addr:quarter\"=>\"台東\",\"branch\"=>\"秋葉原駅北\",\"brand\"=>\"アパホテル\",\"brand:en\"=>\"APA Hotel\",\"brand:ja\"=>\"アパホテル\",\"brand:wikidata\"=>\"Q17191643\",\"contact:phone\"=>\"+81 3 58467111\",\"name:en\"=>\"APA Hotel\",\"name:ja\"=>\"アパホテル\",\"website\"=>\"www.apahotel.com\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7759217,
+                                35.7017238
+                            ],
+                            [
+                                139.7759174,
+                                35.7016789
+                            ],
+                            [
+                                139.7759406,
+                                35.7016508
+                            ],
+                            [
+                                139.776164,
+                                35.7016336
+                            ],
+                            [
+                                139.7761897,
+                                35.7018393
+                            ],
+                            [
+                                139.7761089,
+                                35.7018459
+                            ],
+                            [
+                                139.7760919,
+                                35.7017098
+                            ],
+                            [
+                                139.7759217,
+                                35.7017238
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "519006897",
+                    "name": "公開空地",
+                    "landuse": "recreation_ground"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7743101,
+                                35.7014639
+                            ],
+                            [
+                                139.7743131,
+                                35.70149
+                            ],
+                            [
+                                139.7742302,
+                                35.7015563
+                            ],
+                            [
+                                139.7741558,
+                                35.7015621
+                            ],
+                            [
+                                139.7741458,
+                                35.7014766
+                            ],
+                            [
+                                139.7743101,
+                                35.7014639
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "594458357",
+                    "name": "株式会社コスモエージェンシー",
+                    "building": "commercial",
+                    "office": "company",
+                    "other_tags": "\"addr:block_number\"=>\"29\",\"addr:housenumber\"=>\"3\",\"addr:neighbourhood\"=>\"1丁目\",\"addr:quarter\"=>\"台東\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.775932,
+                                35.7018514
+                            ],
+                            [
+                                139.7759297,
+                                35.7018329
+                            ],
+                            [
+                                139.775917,
+                                35.7017307
+                            ],
+                            [
+                                139.7760809,
+                                35.7017173
+                            ],
+                            [
+                                139.7760959,
+                                35.701838
+                            ],
+                            [
+                                139.775932,
+                                35.7018514
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "609223383",
+                    "amenity": "parking",
+                    "other_tags": "\"access\"=>\"yes\",\"addr:block_number\"=>\"3\",\"addr:quarter\"=>\"秋葉原\",\"opening_hours\"=>\"24/7\",\"parking\"=>\"surface\",\"supervised\"=>\"no\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7750578,
+                                35.7021817
+                            ],
+                            [
+                                139.7751225,
+                                35.7021772
+                            ],
+                            [
+                                139.7751281,
+                                35.7022301
+                            ],
+                            [
+                                139.7750634,
+                                35.7022345
+                            ],
+                            [
+                                139.7750578,
+                                35.7021817
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "609226696",
+                    "amenity": "bicycle_parking",
+                    "other_tags": "\"access\"=>\"private\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7752202,
+                                35.7022233
+                            ],
+                            [
+                                139.7751929,
+                                35.7022253
+                            ],
+                            [
+                                139.7751862,
+                                35.7021659
+                            ],
+                            [
+                                139.7752136,
+                                35.7021639
+                            ],
+                            [
+                                139.7752202,
+                                35.7022233
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "609226705",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7752651,
+                                35.7020259
+                            ],
+                            [
+                                139.7752605,
+                                35.701981
+                            ],
+                            [
+                                139.7754517,
+                                35.7019681
+                            ],
+                            [
+                                139.7754563,
+                                35.702013
+                            ],
+                            [
+                                139.7752651,
+                                35.7020259
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "609226706",
+                    "name": "フジシーエムビル",
+                    "building": "residential",
+                    "other_tags": "\"addr:block_number\"=>\"3\",\"addr:quarter\"=>\"秋葉原\",\"building:levels\"=>\"3\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.775057,
+                                35.7022434
+                            ],
+                            [
+                                139.7749554,
+                                35.7022504
+                            ],
+                            [
+                                139.7749489,
+                                35.702188
+                            ],
+                            [
+                                139.7750504,
+                                35.702181
+                            ],
+                            [
+                                139.775057,
+                                35.7022434
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "613267544",
+                    "amenity": "parking",
+                    "other_tags": "\"access\"=>\"private\",\"parking\"=>\"surface\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7748106,
+                                35.702173
+                            ],
+                            [
+                                139.7747578,
+                                35.7021765
+                            ],
+                            [
+                                139.7747484,
+                                35.7020846
+                            ],
+                            [
+                                139.7747322,
+                                35.7020857
+                            ],
+                            [
+                                139.7747284,
+                                35.7020488
+                            ],
+                            [
+                                139.7747974,
+                                35.7020441
+                            ],
+                            [
+                                139.7748106,
+                                35.702173
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "613267547",
+                    "amenity": "parking",
+                    "other_tags": "\"access\"=>\"private\",\"parking\"=>\"surface\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7748188,
+                                35.7020382
+                            ],
+                            [
+                                139.7748654,
+                                35.7020351
+                            ],
+                            [
+                                139.7748725,
+                                35.7021043
+                            ],
+                            [
+                                139.7748259,
+                                35.7021074
+                            ],
+                            [
+                                139.7748188,
+                                35.7020382
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "613398756",
+                    "building": "yes"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7745353,
+                                35.7022169
+                            ],
+                            [
+                                139.7745816,
+                                35.7022137
+                            ],
+                            [
+                                139.774583,
+                                35.7022271
+                            ],
+                            [
+                                139.7745367,
+                                35.7022303
+                            ],
+                            [
+                                139.7745353,
+                                35.7022169
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "613398757",
+                    "building": "parking"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.774678,
+                                35.7022666
+                            ],
+                            [
+                                139.7745905,
+                                35.7022727
+                            ],
+                            [
+                                139.7745845,
+                                35.7022151
+                            ],
+                            [
+                                139.774672,
+                                35.7022091
+                            ],
+                            [
+                                139.774678,
+                                35.7022666
+                            ]
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "osm_way_id": "613398758",
+                    "amenity": "parking",
+                    "other_tags": "\"access\"=>\"customers\",\"capacity\"=>\"2\",\"operator\"=>\"テンポスアキバ\""
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                139.7746636,
+                                35.7020508
+                            ],
+                            [
+                                139.7747097,
+                                35.7020484
+                            ],
+                            [
+                                139.7747128,
+                                35.7020879
+                            ],
+                            [
+                                139.7746667,
+                                35.7020903
+                            ],
+                            [
+                                139.7746636,
+                                35.7020508
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
+    }
+}
