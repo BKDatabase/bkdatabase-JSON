@@ -1,0 +1,65 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Translation table for [[Template:ModuleQuality]]",
+        "fr": "Table de traduction pour [[Template:ModuleQuality]]",
+        "sl": "Prevodna tabela za [[Template:ModuleQuality]]"
+    },
+    "sources": "[[Module:TNT]] translation table for [[Template:ModuleQuality]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "ModuleQuality"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "id",
+                "type": "string"
+            },
+            {
+                "name": "message",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "testcases-table-caption",
+            {
+                "ar": "حالة الاختبار",
+                "en": "Test Status",
+                "fr": "Résultat du test",
+                "sl": "Testno stanje"
+            }
+        ],
+        [
+            "see-testcases",
+            {
+                "ar": "انظر [[$1|حالات الاختبار]]",
+                "en": "See [[$1|test cases]]",
+                "fr": "Voir les [[$1|cas de test]]",
+                "sl": "Glej [[$1|testne primere]]"
+            }
+        ],
+        [
+            "diff-sandbox",
+            {
+                "ar": "[$1 الفرق] رمز الملعب",
+                "en": "[$1 Diff] sandbox code",
+                "fr": "[$1 Diff] avec le code du bac à sable",
+                "sl": "[$1 Razlika] kode peskovnika"
+            }
+        ],
+        [
+            "module-name",
+            {
+                "ar": "اسم الوحدة",
+                "en": "Module Name",
+                "fr": "Nom du module",
+                "sl": "Ime modula"
+            }
+        ]
+    ]
+}
