@@ -1,0 +1,61 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Creates a standardised “Module Quality” table."
+    },
+    "sources": "[[BKDatabase:Dữ liệu bản mẫu|TemplateData]] for [[Template:ModuleQuality]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "ModuleQuality"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            "string",
+            "{{ROOTPAGENAME}}",
+            {
+                "en": "Module Name"
+            },
+            {
+                "en": "The name of the module to create the “Module Quality” table for."
+            }
+        ],
+        [
+            "test_method",
+            "string",
+            "run",
+            {
+                "en": "Test Method"
+            },
+            {
+                "en": "The testcases module entry point."
+            }
+        ]
+    ]
+}
