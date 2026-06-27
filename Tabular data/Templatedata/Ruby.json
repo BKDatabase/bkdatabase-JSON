@@ -1,0 +1,108 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Shows a Kanji or other phrase with Ruby text above it",
+        "vi": "Hiển thị chữ Kanji hoặc cụm từ khác với văn bản Ruby phía trên"
+    },
+    "sources": "Documentation for [[Template:Ruby]], original work by [[User:Bapham123]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "Ruby"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "example",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            "line",
+            true,
+            "全",
+            {
+                "en": "Base",
+                "vi": "Chính"
+            },
+            {
+                "en": "Text in Kana characters to be annotated",
+                "vi": "Văn bản bằng chữ Kanji cần được chú thích"
+            },
+            null
+        ],
+        [
+            "2",
+            "line",
+            true,
+            "すべ",
+            {
+                "en": "Annotation",
+                "vi": "Chú thích"
+            },
+            {
+                "en": "Hiragana, Katakana, romanization or other transcription; shown above the Base text",
+                "vi": "Hiragana, Katkana, phiên âm Latin hoặc cách phiên âm khác; được hiển thị phía trên văn bản gốc."
+            },
+            null
+        ],
+        [
+            "large",
+            "boolean",
+            false,
+            null,
+            {
+                "en": "Large?",
+                "vi": "Kích thước lớn?"
+            },
+            {
+                "en": "If parameter is 'yes', renders text large",
+                "vi": "Nếu tham số là 'yes', hiển thị chữ với kích thước lớn hơn"
+            },
+            "yes"
+        ],
+        [
+            "style",
+            "string",
+            false,
+            null,
+            {
+                "en": "CSS styling",
+                "vi": "Kiểu CSS"
+            },
+            {
+                "en": "Custom CSS styles",
+                "vi": "Các kiểu CSS tùy biến"
+            },
+            null
+        ]
+    ]
+}
