@@ -1,0 +1,625 @@
+{
+    "license": "CC-BY-SA-3.0",
+    "description": {
+        "ar": "وصف الجدول",
+        "en": "table description"
+    },
+    "sources": "Adapted from [https://dev.fandom.com/wiki/Module:Docbunto/i18n Fandom]",
+    "schema": {
+        "fields": [
+            {
+                "name": "id",
+                "type": "string"
+            },
+            {
+                "name": "message",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "tag-error",
+            {
+                "ar": "{{plural:$1|خطأ|أخطاء}}",
+                "bn": "{{plural:$1|ত্রূটি|ত্রূটি}}",
+                "de": "Fehler",
+                "en": "{{plural:$1|Error|Errors}}",
+                "fr": "{{plural:$1|Erreur|Erreurs}}",
+                "hi": "{{plural:$1|त्रुटि|त्रुटियाँ}}",
+                "ja": "エラー",
+                "qqq": "Tag entry label for a function's @error tags. $1 is the number of @error tags present for the item",
+                "ru": "{{plural:$1|Ошибка|Ошибки}}",
+                "tr": "{{plural:$1|Hata|Hatalar}}",
+                "vi": "Lỗi",
+                "zh": "错误"
+            }
+        ],
+        [
+            "tag-return",
+            {
+                "ar": "النتائج",
+                "bn": "দেয়ে",
+                "de": "Ausgabe",
+                "en": "Returns",
+                "fr": "Retours",
+                "hi": "लौटाता है",
+                "ja": "{{plural:$1|戻り値|複数の戻り値}}",
+                "ko": "반환값",
+                "qqq": "Tag entry label for a function's @return tags",
+                "ru": "Возвращает",
+                "tr": "Döndürmeler",
+                "vi": "Trả về",
+                "zh": "返回"
+            }
+        ],
+        [
+            "header-documentation",
+            {
+                "ar": "توثيق",
+                "bn": "ডকুমেন্টেশন",
+                "de": "Dokumentation",
+                "en": "Documentation",
+                "fr": "Documentation",
+                "hi": "प्रलेख",
+                "ja": "ドキュメンテーション",
+                "ko": "문서",
+                "qqq": "Header for documentation section",
+                "ru": "Документация",
+                "tr": "Belgelendirme",
+                "vi": "Tài liệu",
+                "zh": "文档"
+            }
+        ],
+        [
+            "header-class",
+            {
+                "ar": "صنف الحزمة",
+                "bn": "প্যাকেজ ক্লাস",
+                "de": "Paketklassen",
+                "en": "Package class",
+                "fr": "Classe des paquets",
+                "hi": "क्लास को पैकेज करें",
+                "ja": "パッケージクラス",
+                "qqq": "Header for modules that export a class",
+                "ru": "Класс пакета",
+                "tr": "Paket sınıfı",
+                "vi": "Lớp gói",
+                "zh": "程序包类"
+            }
+        ],
+        [
+            "tag-fixme",
+            {
+                "ar": "{{plural:$1|خطأ|أخطاء}}",
+                "bn": "{{plural:$1|বাগ|বাগ}}",
+                "de": "Fehler",
+                "en": "{{plural:$1|Bug|Bugs}}",
+                "fr": "{{plural:$1|Bug|Bugs}}",
+                "hi": "{{plural:$1|बग|बग्स}}",
+                "ja": "バグ",
+                "qqq": "Tag entry label for an item's documented bugs. $1 is the number of @fixme tags present for the item",
+                "ru": "{{plural:$1|Недочет|Недочеты}}",
+                "tr": "{{plural:$1|Hata|Hatalar}}",
+                "zh": "漏洞"
+            }
+        ],
+        [
+            "header-items",
+            {
+                "ar": "عناصر الحزمة",
+                "bn": "প্যাকেজ আইটেম",
+                "de": "Paketname",
+                "en": "Package items",
+                "fr": "Objets du paquet",
+                "hi": "पैकेज के आयटम",
+                "ja": "パッケージ要素",
+                "ko": "패키지 아이템",
+                "qqq": "Header for modules that export a static table",
+                "ru": "Элементы пакета",
+                "tl": "Mga aytem sa package",
+                "tr": "Paket öğeleri",
+                "vi": "Mục gói",
+                "zh": "程序包项"
+            }
+        ],
+        [
+            "tag-param",
+            {
+                "ar": "{{plural:$1|وسيط|وسائط}}",
+                "bn": "{{plural:$1|প্যারামেটের|প্যারামেটের}}",
+                "de": "Parameter",
+                "en": "{{plural:$1|Parameter|Parameters}}",
+                "fr": "{{plural:$1|Paramètre|Paramètres}}",
+                "hi": "{{plural:$1|पैरामीटर|पैरामीटर्स}}",
+                "ja": "パラメータ",
+                "ko": "{{plural:$1|매개변수|매개변수}}",
+                "qqq": "{{PLURAL:$1|Parameter|Parameters}}",
+                "ru": "{{plural:$1|Аргумент|Аргументы}}",
+                "tr": "{{plural:$1|Parametre|Parametreler}}",
+                "vi": "{{plural:$1|Tham số|Các tham số}}",
+                "zh": "参数"
+            }
+        ],
+        [
+            "optional",
+            {
+                "ar": "اختياري",
+                "bn": "বিকল্পিক",
+                "de": "optional",
+                "en": "optional",
+                "fr": "optionnel",
+                "hi": "वैकल्पिक",
+                "ja": "オプションです",
+                "qqq": "Optional tag documentation entry",
+                "ru": "необязательный",
+                "tl": "opsyonal",
+                "tr": "isteğe bağlı",
+                "vi": "tuỳ chọn",
+                "zh": "可选"
+            }
+        ],
+        [
+            "separator-semicolon",
+            {
+                "ar": ":&#32;",
+                "bn": ":&#32;",
+                "de": ":&#32;",
+                "en": ":&#32;",
+                "fr": ":&#32;",
+                "hi": ":&#32;",
+                "ja": "：",
+                "qqq": "Used to separate item or tag types. {{optional}}",
+                "ru": ":&#32;",
+                "tr": ":&#32;",
+                "zh": "："
+            }
+        ],
+        [
+            "tag-note",
+            {
+                "ar": "{{plural:$1|ملاحظة|ملاحظات}}",
+                "bn": "{{plural:$1|নোট|নোট}}",
+                "de": "{{plural:$1|Notiz|Notizen}}",
+                "en": "{{plural:$1|Note|Notes}}",
+                "fr": "{{plural:$1|Note|Notes}}",
+                "hi": "{{plural:$1|नोट|नोट्स}}",
+                "ja": "ノート",
+                "qqq": "Tag entry label for an item's developer notes. $1 is the number of @note tags present for the item",
+                "ru": "{{plural:$1|Замечание|Замечания}}",
+                "tl": "{{plural:$1|Tala|Mga tala}}",
+                "tr": "{{plural:$1|Not|Notlar}}",
+                "vi": "Lưu ý",
+                "zh": "注意"
+            }
+        ],
+        [
+            "header-private",
+            {
+                "ar": "عناصر خاصة",
+                "bn": "ব্যক্তিগত আইটেম",
+                "de": "Private Werte",
+                "en": "Private items",
+                "fr": "Objets privés",
+                "hi": "व्यक्तिगत आयटम्स",
+                "ja": "プライベート要素",
+                "qqq": "Subheading for private items that are local to a module",
+                "ru": "Приватные элементы",
+                "tr": "Özel öğeler",
+                "vi": "Mục riêng",
+                "zh": "私有项"
+            }
+        ],
+        [
+            "line-no",
+            {
+                "ar": "خط $1",
+                "en": "line $1",
+                "qqq": "The line number of the call. $1 is the line number filled in from this."
+            }
+        ],
+        [
+            "no-markup",
+            {
+                "ar": "لم يُعثر على الترميز الخاص بدوكبونتو في $1",
+                "bn": "ডোকবুনটোর জন্য ডকুমেন্টেশন মার্কআপ $1এ পাওয়া যায়নি",
+                "de": "Dokumentation-Markup für Docbunto in $1 nicht gefunden",
+                "en": "documentation markup for Docbunto not found in $1",
+                "fr": "Documentation markup pour Docbunto introuvable dans $1",
+                "hi": "Docbunto के लिए प्रलेख मार्कअप $1 में नहीं मिला",
+                "ko": "$1에서 Docbunto 문서 마크업을 찾지 못했습니다",
+                "pl": "Nie odnaleziono znaczników Docbunto w $1",
+                "qqq": "Lua error when queried module contains no documentation markup",
+                "ru": "на $1 нет разметки документации Docbunto",
+                "tl": "Ang ''markup'' sa documentasyon para sa Docbuntu ay hindi mahanap sa $1",
+                "tr": "Docbunto için belge işaretlemesi $1 sayfasında bulunamadı",
+                "zh": "没有在$1中找到Docbunto的文档标记"
+            }
+        ],
+        [
+            "tag-warning",
+            {
+                "ar": "{{plural:$1|تنبيه|تنبيهات}}",
+                "bn": "{{plural:$1|সূচনা|সূচনা}}",
+                "de": "{{plural:$1|Warnung|Warnungen}}",
+                "en": "{{plural:$1|Warning|Warnings}}",
+                "fr": "{{plural:$1|Avertissement|Avertissements}}",
+                "hi": "{{plural:$1|चेतावनी|चेतावनियाँ}}",
+                "ja": "警告",
+                "qqq": "Tag entry label for an item's warning notes. $1 is the number of @warning tags present for the item",
+                "ru": "{{plural:$1|Предупреждение|Предупреждения}}",
+                "tl": "{{plural:$1|Babala|Mga babala}}",
+                "tr": "{{plural:$1|Uyarı|Uyarılar}}",
+                "vi": "Cảnh báo",
+                "zh": "警告"
+            }
+        ],
+        [
+            "type-sequence",
+            {
+                "ar": "تتابع",
+                "de": "Sequenz",
+                "en": "sequence",
+                "fr": "séquence",
+                "hi": "क्रम",
+                "qqq": "Lua's table type for items or tags that are a sequence",
+                "ru": "последовательность",
+                "tr": "sıra",
+                "vi": "chuỗi",
+                "zh": "序列"
+            }
+        ],
+        [
+            "header-function",
+            {
+                "bn": "প্যাকেজ ফাঙ্কশন",
+                "de": "Paketfunktion",
+                "en": "Package function",
+                "fr": "Fonction de paquet",
+                "hi": "फंक्शन को पैकेज करें",
+                "ja": "パッケージ関数",
+                "qqq": "Header for modules that export a function",
+                "ru": "Функция пакета",
+                "tr": "Paket işlevi",
+                "vi": "Hàm gói",
+                "zh": "程序包函数"
+            }
+        ],
+        [
+            "type-number",
+            {
+                "ar": "رقم",
+                "bn": "সংখ্যা",
+                "de": "Nummer",
+                "en": "number",
+                "fr": "nombre",
+                "hi": "संख्या",
+                "ja": "数",
+                "qqq": "Lua's number type for items or tags",
+                "ru": "число",
+                "tr": "sayı",
+                "vi": "số",
+                "zh": "数字"
+            }
+        ],
+        [
+            "parentheses",
+            {
+                "bn": "&#32;($1)",
+                "de": "&#32;($1)",
+                "en": "&#32;($1)",
+                "fr": "&#32;($1)",
+                "hi": "&#32;($1)",
+                "ja": "（$1）",
+                "qqq": "Used to wrap item types and tag entry types. {{optional}}",
+                "ru": "&#32;($1)",
+                "tl": "",
+                "tr": "&#32;($1)",
+                "zh": "（$1）"
+            }
+        ],
+        [
+            "type-table",
+            {
+                "ar": "جدول",
+                "bn": "টেবিল",
+                "de": "Table",
+                "en": "table",
+                "fr": "tableau",
+                "hi": "टेबल",
+                "ja": "テーブル",
+                "qqq": "Lua's table type for items or tags",
+                "ru": "таблица",
+                "tl": "talaan",
+                "tr": "tablo",
+                "vi": "bảng",
+                "zh": "表"
+            }
+        ],
+        [
+            "type-string",
+            {
+                "bn": "স্ট্রিং",
+                "de": "String",
+                "en": "string",
+                "fr": "chaîne",
+                "hi": "स्ट्रिंग",
+                "ja": "文字列",
+                "qqq": "Lua's string type for items or tags",
+                "ru": "строка",
+                "tr": "dize",
+                "vi": "xâu",
+                "zh": "字符串"
+            }
+        ],
+        [
+            "type-boolean",
+            {
+                "ar": "منطقي",
+                "bn": "বুলিয়ান",
+                "de": "Boolean",
+                "en": "boolean",
+                "fr": "booléen",
+                "hi": "बूलियन",
+                "ja": "ブーリアン",
+                "qqq": "Lua's boolean type for items or tags",
+                "ru": "логический",
+                "tr": "boole",
+                "vi": "luận lý",
+                "zh": "布尔"
+            }
+        ],
+        [
+            "type-nil",
+            {
+                "bn": "নাই",
+                "de": "null",
+                "en": "nil",
+                "fr": "nil",
+                "hi": "खाली",
+                "ja": "空",
+                "qqq": "Lua's nil type for items or tags",
+                "ru": "nil",
+                "tr": "nil",
+                "zh": "nil"
+            }
+        ],
+        [
+            "tag-todo",
+            {
+                "bn": "টুডু",
+                "de": "TODO",
+                "en": "TODO",
+                "fr": "TODO",
+                "hi": "टू-डू",
+                "ja": "タスク",
+                "qqq": "Tag entry label for an item's @todo tags",
+                "ru": "TODO",
+                "tl": "MGA GAWAIN",
+                "tr": "YAPILACAKLAR",
+                "zh": "待办"
+            }
+        ],
+        [
+            "no-content",
+            {
+                "ar": "لم يٌعثر على مصدر وحدة لوا في $1",
+                "bn": "$1তে লুয়া সোর্স কোড পাওয়া যায়নি",
+                "de": "Lua Quellcode in $1 nicht gefunden",
+                "en": "Lua source code not found in $1",
+                "fr": "Code source Lua source non trouvée dans $1",
+                "hi": "$1 में लुआ स्रोत कोड नहीं मिला",
+                "pl": "Nie odnaleziono kodu źróðłowego Lua w $1",
+                "qqq": "Lua error when queried module is non-existent",
+                "ru": "На $1 нет исходного кода Lua",
+                "tl": "Ang ''Luabsource code'' ay hindi mahanap sa $1",
+                "tr": "Lua kaynak kodu $1 sorgusunda bulunamadı",
+                "vi": "Không tìm thấy mã nguồn Lua trong $1",
+                "zh": "没有在$1中找到Lua源代码"
+            }
+        ],
+        [
+            "type-member",
+            {
+                "ar": "عضو",
+                "bn": "সদস্য",
+                "de": "Mitglied",
+                "en": "member",
+                "fr": "membre",
+                "hi": "सदस्य",
+                "ja": "メンバ",
+                "qqq": "Custom type for class members that are primitives (boolean, number or string)",
+                "ru": "член класса",
+                "tr": "üye",
+                "vi": "",
+                "zh": "成员"
+            }
+        ],
+        [
+            "type-function",
+            {
+                "ar": "وظيفة",
+                "bn": "ফাঙ্কশন",
+                "de": "Funktion",
+                "en": "function",
+                "fr": "fonction",
+                "hi": "फंक्शन",
+                "ja": "関数",
+                "qqq": "Lua's function type for items or tags",
+                "ru": "функция",
+                "tr": "işlev",
+                "vi": "hàm",
+                "zh": "函数"
+            }
+        ],
+        [
+            "type-variable",
+            {
+                "ar": "متغير",
+                "bn": "ভ্যারিয়েবল",
+                "de": "Variable",
+                "en": "variable",
+                "fr": "variable",
+                "hi": "वेरिएबल",
+                "ja": "変数",
+                "qqq": "Custom type for private items that are primitives (boolean, number or string) and local to a module",
+                "ru": "переменная",
+                "tl": "",
+                "tr": "değişken",
+                "vi": "biến",
+                "zh": "变量"
+            }
+        ],
+        [
+            "header-other",
+            {
+                "ar": "عناصر أخرى",
+                "bn": "অন্য আইটেম",
+                "de": "Andere Werte",
+                "en": "Other items",
+                "fr": "Autres objets",
+                "hi": "दुसरे आयटम",
+                "ja": "ほかアイテム",
+                "qqq": "Subheading for public items that aren't package members (e.g. return tables)",
+                "ru": "Другие элементы",
+                "tr": "Diğer öğeler",
+                "vi": "Mục khác",
+                "zh": "其他项"
+            }
+        ],
+        [
+            "tag-see",
+            {
+                "ar": "انظر أيضا",
+                "bn": "আরও দেখেন",
+                "de": "Siehe auch",
+                "en": "See also",
+                "fr": "Voir aussi",
+                "hi": "ये भी देखें",
+                "ja": "関連項目",
+                "qqq": "Tag entry label for an item's @see tags",
+                "ru": "Смотрите также",
+                "tr": "Ayrıca bakınız",
+                "vi": "Xem thêm",
+                "zh": "另见"
+            }
+        ],
+        [
+            "tag-usage",
+            {
+                "ar": "الاستخدام",
+                "bn": "প্রয়োগ",
+                "de": "Verwendung",
+                "en": "Usage",
+                "fr": "Utilisation",
+                "hi": "प्रयोग",
+                "ja": "使用例",
+                "qqq": "Tag entry label for an item's @usage tags",
+                "ru": "Использование",
+                "tl": "Paggamit",
+                "tr": "Kullanım",
+                "vi": "Cách dùng",
+                "zh": "用法"
+            }
+        ],
+        [
+            "tag-field",
+            {
+                "ar": "{{plural:$1|حقل|حقول}}",
+                "bn": "{{plural:$1|ফিল্ড|ফিল্ড}}",
+                "de": "{{plural:$1|Feld|Felder}}",
+                "en": "{{plural:$1|Field|Fields}}",
+                "fr": "{{plural:$1|Champ|Champs}}",
+                "hi": "{{plural:$1|फ़ील्ड|फ़ील्ड्स}}",
+                "ja": "フィールド",
+                "qqq": "Tag entry label for a table's @field tags. $1 is the number of @field tags present for the item",
+                "ru": "{{plural:$1|Поле|Поля}}",
+                "tr": "{{plural:$1|Alan|Alanlar}}",
+                "vi": "{{plural:$1|Trường|Các trường}}",
+                "zh": "字段"
+            }
+        ],
+        [
+            "separator-dot",
+            {
+                "bn": "&nbsp;•&#32;",
+                "de": "&nbsp;•&#32;",
+                "en": "&nbsp;•&#32;",
+                "fr": "&nbsp;•&#32;",
+                "hi": "&nbsp;•&#32;",
+                "ja": "・",
+                "ko": "・",
+                "qqq": "Used to separate horizontal lists such as item flags",
+                "ru": "&nbsp;•&#32;",
+                "tl": "&nbsp;•&#32;",
+                "tr": "&nbsp;•&#32;",
+                "vi": "&nbsp;•&#32;",
+                "zh": "・"
+            }
+        ],
+        [
+            "separator-colon",
+            {
+                "bn": ";&#32;",
+                "de": ";&#32;",
+                "en": ";&#32;",
+                "fr": ";&#32;",
+                "hi": ";&#32;",
+                "ja": ";&#32;",
+                "qqq": "Used to separate tag entry labels from the entry documentation. {{optional}}",
+                "ru": ";&#32;",
+                "tr": ";&#32;",
+                "vi": ";&#32;",
+                "zh": "；"
+            }
+        ],
+        [
+            "todo",
+            {
+                "en": "Modules with TODO items"
+            }
+        ],
+        [
+            "code",
+            {
+                "en": "Code"
+            }
+        ],
+        [
+            "release-status",
+            {
+                "en": "Release status"
+            }
+        ],
+        [
+            "description",
+            {
+                "en": "Description"
+            }
+        ],
+        [
+            "author",
+            {
+                "en": "Author"
+            }
+        ],
+        [
+            "using-code-by",
+            {
+                "en": "Using code by"
+            }
+        ],
+        [
+            "dependencies",
+            {
+                "en": "Dependencies"
+            }
+        ],
+        [
+            "message-autogeneration",
+            {
+                "en": "Documentation above is auto generated by [[Module:Docbunto|Docbunto]]."
+            }
+        ]
+    ]
+}
