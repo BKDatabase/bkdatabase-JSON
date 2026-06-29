@@ -1,0 +1,100 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "This template is used to display Japanese text, applying the correct code and formatting.",
+        "vi": "Bản mẫu này được sử dụng để hiển thị văn bản tiếng Nhật, áp dụng mã và định dạng chính xác."
+    },
+    "sources": "Documentation for [[Template:Nihongo]], original work by [[User:Bapham123]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Nihongo"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "example",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            "line",
+            true,
+            "愛城 恋太郎",
+            {
+                "en": "Kanji/Kana",
+                "vi": "Kanji/Kana"
+            },
+            {
+                "en": "The word as written in Japanese (kanji, kana, Roman letters, and possibly other marks).",
+                "vi": "Từ này được viết bằng tiếng Nhật (chữ Hán, chữ Kana, chữ Latinh và có thể cả các ký hiệu khác)."
+            }
+        ],
+        [
+            "2",
+            "line",
+            true,
+            "Aijō Rentarō",
+            {
+                "en": "Romanized (rōmaji)",
+                "vi": "La tinh hóa (rōmaji)"
+            },
+            {
+                "en": "Hiragana, Katakana, romanization or other transcription; shown above the Base text",
+                "vi": "Hiragana, Katkana, phiên âm Latin hoặc cách phiên âm khác; được hiển thị phía trên văn bản gốc."
+            }
+        ],
+        [
+            "3",
+            "line",
+            false,
+            "Aijou Rentaro",
+            {
+                "en": "Extra text inside parentheses",
+                "vi": "Văn bản bổ sung bên trong dấu ngoặc đơn"
+            },
+            {
+                "en": "Adds extra text inside the parentheses.",
+                "vi": "Thêm văn bản bổ sung bên trong dấu ngoặc đơn."
+            }
+        ],
+        [
+            "4",
+            "line",
+            false,
+            null,
+            {
+                "en": "Extra text outside parentheses",
+                "vi": "Văn bản bổ sung bên ngoài dấu ngoặc đơn"
+            },
+            {
+                "en": "Adds extra text outside the parentheses. It is only useful in \";\" definitions (it will be displayed without bold, whereas text following the template, will be bolded). Literal translations and linguistic glosses must use single quotation marks, not double.",
+                "vi": "Thêm văn bản bổ sung bên ngoài dấu ngoặc đơn. Chỉ hữu ích trong các định nghĩa có dấu chấm phẩy \";\" (văn bản này sẽ được hiển thị mà không in đậm, trong khi văn bản theo sau mẫu sẽ được in đậm). Các bản dịch theo nghĩa đen và chú thích ngôn ngữ phải sử dụng dấu ngoặc kép đơn, không phải dấu ngoặc kép đôi."
+            }
+        ]
+    ]
+}
