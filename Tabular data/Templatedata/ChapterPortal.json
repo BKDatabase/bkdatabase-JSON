@@ -1,0 +1,114 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Template that creates navigation portals to chapters within the Lore introduction page.",
+        "vi": "Bản mẫu tạo các cổng điều hướng đến các chapter trong trang giới thiệu Lore"
+    },
+    "sources": "Documentation for [[Template:ChapterPortal]], original work by [[User:Bapham123]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "ChapterPortal"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "image",
+            "wiki-file-name",
+            true,
+            "Placeholder-image.png",
+            {
+                "en": "Image name",
+                "vi": "Tên hình ảnh"
+            },
+            {
+                "en": "The image filename, with extension (.jpg etc)",
+                "vi": "Tên tập tin hình ảnh kèm phần mở rộng (ví dụ: .jpg)"
+            }
+        ],
+        [
+            "chapter",
+            "string",
+            true,
+            null,
+            {
+                "en": "Chapter",
+                "vi": "Chapter"
+            },
+            {
+                "en": "The associated chapter name.",
+                "vi": "Tên chapter tương ứng."
+            }
+        ],
+        [
+            "name",
+            "line",
+            false,
+            null,
+            {
+                "en": "Name",
+                "vi": "Tên"
+            },
+            {
+                "en": "The name of the chapter.",
+                "vi": "Tên của chương."
+            }
+        ],
+        [
+            "scale",
+            "number",
+            false,
+            "1",
+            {
+                "en": "Scale",
+                "vi": "Tỉ lệ"
+            },
+            {
+                "en": "Scale-in the image to make sure it fills the entire card. Can have decimals. Expressed as a factor. Image will always be centred. Default: 1",
+                "vi": "Phóng to hình ảnh để đảm bảo hình ảnh lấp đầy toàn bộ thẻ. Có thể có số thập phân. Được biểu thị dưới dạng hệ số. Hình ảnh sẽ luôn được căn giữa. Mặc định: 1"
+            }
+        ],
+        [
+            "desc",
+            "content",
+            false,
+            null,
+            {
+                "en": "Description",
+                "vi": "Miêu tả"
+            },
+            {
+                "en": "The description you want to display when the user hovers over the link long enough.",
+                "vi": "Đây là mô tả bạn muốn hiển thị khi người dùng di chuột qua liên kết đủ lâu."
+            }
+        ]
+    ]
+}
