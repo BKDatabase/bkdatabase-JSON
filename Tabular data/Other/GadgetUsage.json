@@ -1,0 +1,109 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "This page provides a historical record of Special:GadgetUsage through its page history. To get the data in CSV or Excel format, click the \"Export to CSV\" or \"Export to Excel\" at bottom of page."
+    },
+    "sources": "Original work by [[User:Bapham123]]",
+    "schema": {
+        "fields": [
+            {
+                "name": "Gadget",
+                "type": "string"
+            },
+            {
+                "name": "Number_of_users",
+                "type": "number"
+            }
+        ]
+    },
+    "data": [
+        [
+            "instantDiffs",
+            1
+        ],
+        [
+            "PrettyLog",
+            1
+        ],
+        [
+            "goToTop",
+            1
+        ],
+        [
+            "MassPatrol",
+            1
+        ],
+        [
+            "edittop",
+            1
+        ],
+        [
+            "Mark_as_patrolled",
+            1
+        ],
+        [
+            "dark-mode-switcher",
+            1
+        ],
+        [
+            "HotCat",
+            1
+        ],
+        [
+            "contribsrange",
+            1
+        ],
+        [
+            "HighlightRedirects",
+            1
+        ],
+        [
+            "botRollback",
+            1
+        ],
+        [
+            "GoogleTrans",
+            1
+        ],
+        [
+            "WikiMiniAtlas",
+            1
+        ],
+        [
+            "CleanDeleteReasons",
+            1
+        ],
+        [
+            "UTCLiveClock",
+            1
+        ],
+        [
+            "BiDiEditing",
+            1
+        ],
+        [
+            "SVGedit",
+            1
+        ],
+        [
+            "AVIM_portlet",
+            1
+        ],
+        [
+            "ProveIt",
+            1
+        ],
+        [
+            "AVIM",
+            1
+        ],
+        [
+            "mylang-shortcut",
+            1
+        ],
+        [
+            "Prosize",
+            1
+        ]
+    ]
+}
