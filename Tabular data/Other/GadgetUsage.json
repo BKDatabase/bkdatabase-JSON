@@ -1,7 +1,7 @@
 {
     "license": "CC0-1.0",
     "description": {
-        "en": "This page provides a historical record of Special:GadgetUsage through its page history. To get the data in CSV or Excel format, click the \"Export to CSV\" or \"Export to Excel\" at bottom of page."
+        "en": "This page provides a historical record of Special:GadgetUsage (except for gadgets enabled by default) through its page history. To get the data in CSV or Excel format, click the \"Export to CSV\" or \"Export to Excel\" at bottom of page."
     },
     "sources": "Original work by [[User:Bapham123]]",
     "schema": {
@@ -107,6 +107,18 @@
         ],
         [
             "ConvenientDiscussions",
+            1
+        ],
+        [
+            "Wikitext-Extension-VSCodium",
+            1
+        ],
+        [
+            "Wikitext-Extension-VSCode",
+            1
+        ],
+        [
+            "Wikitext-Extension-VSCodeInsiders",
             1
         ]
     ]
