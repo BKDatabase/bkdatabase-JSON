@@ -1,0 +1,50 @@
+{
+	"config": {
+		"title": {
+			"label": "Thiên An Môn - Chiến dịch \"Bàn tay lớn\"",
+			"page": "Lore:Thiên An Môn"
+		}
+	},
+	"groups": [
+		{
+			"title": {
+				"label": "Tiền truyện"
+			},
+			"content": [
+				"Lore:Thiên An Môn/Tiền Truyện phần 1",
+				"Lore:Thiên An Môn/Tiền Truyện phần 2",
+				"Lore:Thiên An Môn/Tiền Truyện phần 3",
+				"Lore:Thiên An Môn/Tiền Truyện phần 4"
+			]
+		},
+		{
+			"title": {
+				"label": "Các quốc gia"
+			},
+			"content": [
+				"Đế quốc Đức (Before Inter German War)",
+				"Đế quốc Nhật Bản",
+				"Trung Hoa Dân Quốc"
+			]
+		},
+		{
+			"title": {
+				"label": "Các nhân vật liên quan"
+			},
+			"content": [
+				"Hara Takashi",
+				"Lý Khả Siêu",
+				"Tôn Trung Sơn",
+				"Yoshihito",
+				"Hirohito",
+				"Đoàn Kỳ Thụy",
+				"Tào Côn",
+				"Trương Tác Lâm",
+				"Trương Học Lương",
+				"Hideki Tojo",
+				"Hitoshi Okamura",
+				"Jirō Minami"
+			]
+		}
+	]
+}
