@@ -120,6 +120,10 @@
         [
             "Wikitext-Extension-VSCodeInsiders",
             1
+        ],
+        [
+            "addsection-plus",
+            1
         ]
     ]
 }
