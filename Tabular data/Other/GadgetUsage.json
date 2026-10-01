@@ -124,6 +124,10 @@
         [
             "topalert",
             1
+        ],
+        [
+            "addsection-plus",
+            0
         ]
     ]
 }
