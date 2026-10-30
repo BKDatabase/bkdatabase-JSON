@@ -1,0 +1,93 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "Translation table for the shared Module:Lua_banner",
+        "fr": "Table de traduction pour partager Module:Lua_banner",
+        "it": "Tabella di traduzione per il modulo condiviso Module:Lua_banner",
+        "ja": "共有モジュールModule:Lua_bannerの翻訳表",
+        "ko": "모듈:Lua_banner를 위한 공유되는 번역",
+        "nb": "Oversettelsestabell for Modul:Lua_banner",
+        "pl": "Tabela tłumaczeń dla współdzielonego modułu Module:Lua_banner",
+        "ru": "Таблица перевода для общеиспользуемого модуля Module:Lua_banner",
+        "sl": "Prevodna tabela za skupni Modul:Lua_banner",
+        "tr": "Paylaşılan Modül:Lua (Module:Lua_banner) için çeviri tablosu",
+        "uk": "Таблиця перекладів для спільного Модуль:Lua_banner",
+        "zh-hans": "用于共享Module:Lua_banner的翻译表",
+        "zh-hant": "用於分享Module:Lua_banner的翻譯表"
+    },
+    "sources": "Module [[mw:Module:No globals]], see [[mw:WP:TNT|bot documentation]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TNT.tab",
+            "sort": "Lua banner"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "id",
+                "type": "string"
+            },
+            {
+                "name": "message",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "header",
+            {
+                "de": "Benutzt [[BKD:Lua|Lua]]:",
+                "en": "This template uses [[BKD:Lua|Lua]]:",
+                "fr": "Ce modèle utilise le module [[BKD:Lua|Lua]] suivant :",
+                "hu": "[[BKD:Lua|Luát]] használ:",
+                "it": "Usa [[BKD:Lua|Lua]]:",
+                "ja": "このテンプレートは[[BKD:Lua|Lua]]を使用しています:",
+                "ko": "이 틀은 [[BKD:Lua|루아]]를 사용합니다:",
+                "nb": "Benytter [[BKD:Lua|Lua]]:",
+                "pl": "Używa [[BKD:Lua|Lua]]:",
+                "pt": "Utiliza [[BKD:Lua|Lua]]:",
+                "ru": "Используется [[BKD:Lua|Lua]]:",
+                "sl": "Uporablja [[BKD:Lua|Luo]]:",
+                "tr": "[[BKD:Lua|Lua]] kullanır:",
+                "uk": "Цей шаблон використовує [[BKD:Lua|Lua]]:",
+                "vi": "Bản mẫu này sử dụng [[BKD:Lua|Lua]]:",
+                "zh-hans": "使用[[BKD:Lua|Lua]]:",
+                "zh-hant": "使用[[BKD:Lua|Lua]]:"
+            }
+        ],
+        [
+            "module-header",
+            {
+                "de": "Dieses Modul hängt von den folgenden anderen Modulen ab:",
+                "en": "This module depends on the following other modules:",
+                "fr": "Ce module dépend des autres modules suivants:",
+                "ja": "このモジュールは、以下の他のモジュールに依存しています:",
+                "vi": "Mô đun này phụ thuộc vào các mô đun sau:"
+            }
+        ],
+        [
+            "error_emptylist",
+            {
+                "de": "Fehler: kein Modul angegeben",
+                "en": "Error: no modules specified",
+                "fr": "Erreur : aucun module spécifié",
+                "hu": "Hiba: nincs megadva modul",
+                "it": "Errore: nessun modulo specificato",
+                "ja": "エラー: モジュールが指定されていません",
+                "ko": "오류: 모듈이 지정되지 않음",
+                "nb": "Feil: ingen modul angitt",
+                "pl": "Błąd: nie podano nazwy ani jednego modułu",
+                "pt": "Erro: nenhum módulo especificado",
+                "ru": "Ошибка: ни один модуль не указан",
+                "sl": "Napaka: Določen ni noben modul.",
+                "tr": "Hata: modül belirtilmedi",
+                "uk": "Помилка: не вказано модулі",
+                "vi": "Lỗi: không xác định được mô đun",
+                "zh-hans": "错误：没有指定模块",
+                "zh-hant": "錯誤：沒有指定模組"
+            }
+        ]
+    ]
+}
