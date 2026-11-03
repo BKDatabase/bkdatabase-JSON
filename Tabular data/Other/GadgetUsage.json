@@ -132,6 +132,14 @@
         [
             "CommentsInLocalTime",
             1
+        ],
+        [
+            "removeAccessKeys",
+            0
+        ],
+        [
+            "markblocked",
+            1
         ]
     ]
 }
