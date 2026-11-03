@@ -1,0 +1,100 @@
+{
+    "license": "CC0-1.0",
+    "description": {
+        "en": "This template is for giving examples of template parameter source code",
+        "vi": "Bản mẫu này dùng để cung cấp ví dụ về mã nguồn tham số của bản mẫu"
+    },
+    "sources": "[[BKDatabase:Dữ liệu bản mẫu|TemplateData]] for [[Bản mẫu:Para|Para]], original work by [[c:User:ExE Boss]]",
+    "mediawikiCategories": [
+        {
+            "name": "Data:TemplateData.tab",
+            "sort": "Para"
+        }
+    ],
+    "schema": {
+        "fields": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "required",
+                "type": "boolean"
+            },
+            {
+                "name": "suggested",
+                "type": "boolean"
+            },
+            {
+                "name": "default",
+                "type": "string"
+            },
+            {
+                "name": "autovalue",
+                "type": "string"
+            },
+            {
+                "name": "label",
+                "type": "localized"
+            },
+            {
+                "name": "description",
+                "type": "localized"
+            }
+        ]
+    },
+    "data": [
+        [
+            "1",
+            "string",
+            true,
+            false,
+            null,
+            null,
+            {
+                "en": "Name",
+                "vi": "Tên"
+            },
+            {
+                "en": "The parameter name.",
+                "vi": "Tên tham số"
+            }
+        ],
+        [
+            "2",
+            "string",
+            false,
+            true,
+            null,
+            null,
+            {
+                "en": "Value",
+                "vi": "Giá trị"
+            },
+            {
+                "en": "The parameter value.",
+                "vi": "Giá trị của tham số"
+            }
+        ],
+        [
+            "plain",
+            "boolean",
+            false,
+            false,
+            "0",
+            "1",
+            {
+                "en": "Plain?",
+                "vi": "Thô?"
+            },
+            {
+                "en": "Whether to use plain text instead of <code>.",
+                "vi": "Nên sử dụng văn bản thô thay vì thẻ <code>."
+            }
+        ]
+    ]
+}
