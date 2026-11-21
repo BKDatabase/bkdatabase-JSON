@@ -140,6 +140,10 @@
         [
             "markblocked",
             1
+        ],
+        [
+            "LocalLiveClock",
+            0
         ]
     ]
 }
